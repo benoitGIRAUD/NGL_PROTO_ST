@@ -1,0 +1,426 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	9245 5325 7360 5325
+Wire Notes Line
+	7305 5325 3105 5325
+Wire Wire Line
+	2710 4045 3210 4045
+Wire Wire Line
+	6420 3050 6570 3050
+Connection ~ 6420 3050
+Wire Wire Line
+	6420 4045 6360 4045
+Connection ~ 6420 4045
+Wire Wire Line
+	6420 4045 6420 3050
+Text Notes 9500 5130 0    50   ~ 0
+Capuchon Jumper OPEN\nPour Test point en même temps
+Text Notes 3145 5290 0    79   ~ 16
+Redressement
+Wire Notes Line
+	3105 2790 3105 5325
+Wire Notes Line
+	7305 2790 7305 5325
+Wire Notes Line
+	3105 2790 7305 2790
+Text Notes 7485 5265 0    79   ~ 16
+Filtrage
+Wire Notes Line
+	7360 3725 7360 5325
+Wire Notes Line
+	9245 3725 9245 5325
+Wire Notes Line
+	7360 3725 9245 3725
+Text Notes 10190 4635 0    50   ~ 0
+pad
+Wire Wire Line
+	9855 4145 10085 4145
+Wire Wire Line
+	9290 4145 9480 4145
+Wire Wire Line
+	10085 4640 9860 4640
+Wire Wire Line
+	10085 4540 10085 4640
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62B857DA
+P 10085 4540
+F 0 "TP?" H 10143 4658 50  0000 L CNN
+F 1 "16Bits_ADC" H 10143 4567 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 10285 4540 50  0001 C CNN
+F 3 "~" H 10285 4540 50  0001 C CNN
+	1    10085 4540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 62B857E0
+P 9760 4640
+F 0 "JP?" H 9760 4740 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 9760 4761 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9760 4640 50  0001 C CNN
+F 3 "~" H 9760 4640 50  0001 C CNN
+	1    9760 4640
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9080 4145 9290 4145
+Connection ~ 9080 4145
+Wire Wire Line
+	9080 4245 9080 4145
+Wire Wire Line
+	9080 4640 9080 4545
+Wire Wire Line
+	8575 4145 9080 4145
+$Comp
+L Device:D_Schottky D?
+U 1 1 62B857EB
+P 9080 4395
+F 0 "D?" V 9080 4474 50  0000 L CNN
+F 1 "D_Schottky" V 9035 4316 50  0001 R CNN
+F 2 "Lib_NGL_Proto:SOT23-3P96_237X112L42X44" H 9080 4395 50  0001 C CNN
+F 3 "~" H 9080 4395 50  0001 C CNN
+	1    9080 4395
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 4845 3725 4745
+$Comp
+L power:GND #PWR?
+U 1 1 62B857F2
+P 3725 4845
+F 0 "#PWR?" H 3725 4595 50  0001 C CNN
+F 1 "GND" H 3870 4765 50  0000 C CNN
+F 2 "" H 3725 4845 50  0001 C CNN
+F 3 "" H 3725 4845 50  0001 C CNN
+	1    3725 4845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7955 4640 7955 4845
+Wire Wire Line
+	7210 4145 7075 4145
+Connection ~ 7210 4145
+Wire Wire Line
+	7210 3050 7210 4145
+Wire Wire Line
+	6870 3050 7210 3050
+Wire Wire Line
+	4360 3050 6420 3050
+Wire Wire Line
+	3210 4045 3425 4045
+Connection ~ 3210 4045
+Wire Wire Line
+	3210 3050 4060 3050
+Wire Wire Line
+	3210 4045 3210 3050
+Wire Wire Line
+	7570 4145 7210 4145
+$Comp
+L Device:R R?
+U 1 1 62B85803
+P 7720 4145
+F 0 "R?" H 7790 4191 50  0000 L CNN
+F 1 "10K" H 7790 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7650 4145 50  0001 C CNN
+F 3 "~" H 7720 4145 50  0001 C CNN
+	1    7720 4145
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B85809
+P 8185 4145
+F 0 "R?" H 8255 4191 50  0000 L CNN
+F 1 "10K" H 8255 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8115 4145 50  0001 C CNN
+F 3 "~" H 8185 4145 50  0001 C CNN
+	1    8185 4145
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62B8580F
+P 7955 4435
+F 0 "C?" H 8070 4481 50  0000 L CNN
+F 1 "1uF" H 8070 4390 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7993 4285 50  0001 C CNN
+F 3 "~" H 7955 4435 50  0001 C CNN
+	1    7955 4435
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62B85815
+P 8575 4435
+F 0 "C?" H 8690 4481 50  0000 L CNN
+F 1 "1uF" H 8690 4390 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8613 4285 50  0001 C CNN
+F 3 "~" H 8575 4435 50  0001 C CNN
+	1    8575 4435
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7955 4285 7955 4145
+Wire Wire Line
+	7870 4145 7955 4145
+Connection ~ 7955 4145
+Wire Wire Line
+	7955 4145 8035 4145
+Wire Wire Line
+	8335 4145 8575 4145
+Wire Wire Line
+	8575 4145 8575 4285
+Connection ~ 8575 4145
+$Comp
+L power:GND #PWR?
+U 1 1 62B85822
+P 7955 4845
+F 0 "#PWR?" H 7955 4595 50  0001 C CNN
+F 1 "GND" H 7955 4695 50  0000 C CNN
+F 2 "" H 7955 4845 50  0001 C CNN
+F 3 "" H 7955 4845 50  0001 C CNN
+	1    7955 4845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9080 4640 8575 4640
+Wire Wire Line
+	8575 4640 8575 4585
+Wire Wire Line
+	8575 4640 7955 4640
+Connection ~ 8575 4640
+Connection ~ 7955 4640
+Wire Wire Line
+	7955 4640 7955 4585
+Text GLabel 10085 4145 2    50   Output ~ 0
+OUT_SENS
+Wire Wire Line
+	9290 4010 9290 4145
+Connection ~ 9290 4145
+Wire Wire Line
+	6360 4845 6360 4740
+Wire Wire Line
+	6360 4245 6360 4440
+Wire Wire Line
+	6475 4245 6360 4245
+Wire Wire Line
+	6475 4045 6420 4045
+Wire Wire Line
+	5130 3695 5130 3795
+Connection ~ 5130 3695
+Wire Wire Line
+	5840 4045 6060 4045
+Wire Wire Line
+	5840 3695 5840 4045
+Wire Wire Line
+	5130 3695 5840 3695
+Wire Wire Line
+	3860 3695 3860 3455
+Connection ~ 3860 3695
+Wire Wire Line
+	4795 3695 3860 3695
+Wire Wire Line
+	4795 3795 4795 3695
+Connection ~ 4795 4145
+Wire Wire Line
+	5130 4145 5130 4095
+Wire Wire Line
+	4795 4145 5130 4145
+Wire Wire Line
+	4795 4145 4795 4095
+Wire Wire Line
+	4550 4145 4795 4145
+Wire Wire Line
+	5130 3455 5130 3695
+Wire Wire Line
+	4355 3455 5130 3455
+Wire Wire Line
+	3860 4045 3725 4045
+Connection ~ 3860 4045
+Wire Wire Line
+	3860 3455 4055 3455
+Wire Wire Line
+	3860 4045 3860 3695
+Wire Wire Line
+	3950 4045 3860 4045
+Wire Wire Line
+	3725 4245 3950 4245
+Wire Wire Line
+	3725 4445 3725 4245
+$Comp
+L power:GND #PWR?
+U 1 1 62B8584C
+P 6360 4845
+F 0 "#PWR?" H 6360 4595 50  0001 C CNN
+F 1 "GND" H 6505 4765 50  0000 C CNN
+F 2 "" H 6360 4845 50  0001 C CNN
+F 3 "" H 6360 4845 50  0001 C CNN
+	1    6360 4845
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B85852
+P 6720 3050
+F 0 "R?" H 6790 3096 50  0000 L CNN
+F 1 "40K" H 6790 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6650 3050 50  0001 C CNN
+F 3 "~" H 6720 3050 50  0001 C CNN
+	1    6720 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B85858
+P 4210 3050
+F 0 "R?" H 4280 3096 50  0000 L CNN
+F 1 "40K" H 4280 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4140 3050 50  0001 C CNN
+F 3 "~" H 4210 3050 50  0001 C CNN
+	1    4210 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B8585E
+P 6210 4045
+F 0 "R?" H 6280 4091 50  0000 L CNN
+F 1 "20K" H 6280 4000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6140 4045 50  0001 C CNN
+F 3 "~" H 6210 4045 50  0001 C CNN
+	1    6210 4045
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B85864
+P 6360 4590
+F 0 "R?" H 6430 4636 50  0000 L CNN
+F 1 "10K" H 6430 4545 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6290 4590 50  0001 C CNN
+F 3 "~" H 6360 4590 50  0001 C CNN
+	1    6360 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 62B8586A
+P 5130 3945
+F 0 "D?" V 5130 3866 50  0000 R CNN
+F 1 "D_Schottky" V 5085 3866 50  0001 R CNN
+F 2 "Lib_NGL_Proto:SOT23-3P96_237X112L42X44" H 5130 3945 50  0001 C CNN
+F 3 "~" H 5130 3945 50  0001 C CNN
+	1    5130 3945
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 62B85870
+P 4795 3945
+F 0 "D?" V 4795 4024 50  0000 L CNN
+F 1 "D_Schottky" V 4840 4024 50  0001 L CNN
+F 2 "Lib_NGL_Proto:SOT23-3P96_237X112L42X44" H 4795 3945 50  0001 C CNN
+F 3 "~" H 4795 3945 50  0001 C CNN
+	1    4795 3945
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B85876
+P 3725 4595
+F 0 "R?" H 3795 4641 50  0000 L CNN
+F 1 "10K" H 3795 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3655 4595 50  0001 C CNN
+F 3 "~" H 3725 4595 50  0001 C CNN
+	1    3725 4595
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 62B8587C
+P 9755 4145
+F 0 "JP?" H 9750 4240 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 9755 4266 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9755 4145 50  0001 C CNN
+F 3 "~" H 9755 4145 50  0001 C CNN
+	1    9755 4145
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62B85882
+P 9290 4010
+F 0 "TP?" H 9348 4128 50  0000 L CNN
+F 1 "TestPoint" H 9348 4037 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9490 4010 50  0001 C CNN
+F 3 "~" H 9490 4010 50  0001 C CNN
+	1    9290 4010
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B85888
+P 3575 4045
+F 0 "R?" H 3645 4091 50  0000 L CNN
+F 1 "20K" H 3645 4000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3505 4045 50  0001 C CNN
+F 3 "~" H 3575 4045 50  0001 C CNN
+	1    3575 4045
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B8588E
+P 4205 3455
+F 0 "R?" H 4275 3501 50  0000 L CNN
+F 1 "20K" H 4275 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4135 3455 50  0001 C CNN
+F 3 "~" H 4205 3455 50  0001 C CNN
+	1    4205 3455
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:ADA4075-2 U?
+U 2 1 62B85894
+P 6775 4145
+F 0 "U?" H 6775 4512 50  0000 C CNN
+F 1 "AD8639" H 6775 4421 50  0000 C CNN
+F 2 "Lib_NGL_Proto:ADA4522-2ARZ" H 6775 4145 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 6775 4145 50  0001 C CNN
+	2    6775 4145
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:ADA4075-2 U?
+U 1 1 62B8589A
+P 4250 4145
+F 0 "U?" H 4250 4512 50  0000 C CNN
+F 1 "AD8639" H 4250 4421 50  0000 C CNN
+F 2 "Lib_NGL_Proto:ADA4522-2ARZ" H 4250 4145 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 4250 4145 50  0001 C CNN
+	1    4250 4145
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9660 4640 9480 4640
+Wire Wire Line
+	9480 4640 9480 4145
+Connection ~ 9480 4145
+Wire Wire Line
+	9480 4145 9655 4145
+$EndSCHEMATC

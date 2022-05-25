@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\NGL_Proto_PCB\NGL_Proto.sch</source>
+    <date>12/05/2022 10:33:24</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NGL_Proto</title>
+        <company>ADTP</company>
+        <rev>V1</rev>
+        <date>2022-05-02</date>
+        <source>NGL_Proto.sch</source>
+        <comment number="1" value="Usinage by LPKF"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP32/" tstamps="/6271F3E2/">
+      <title_block>
+        <title>NGL_Proto</title>
+        <company>ADTP</company>
+        <rev>V1</rev>
+        <date>2022-05-02</date>
+        <source>esp32.sch</source>
+        <comment number="1" value="Usinage by LPKF"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/">
+      <title_block>
+        <title>NGL_Proto</title>
+        <company>ADTP</company>
+        <rev>V1</rev>
+        <date>2022-05-02</date>
+        <source>Alim.sch</source>
+        <comment number="1" value="Usinage by LPKF"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/">
+      <title_block>
+        <title>NGL_Proto</title>
+        <company>ADTP</company>
+        <rev>V1</rev>
+        <date>2022-05-02</date>
+        <source>Connecteur_Entrées.sch</source>
+        <comment number="1" value="Usinage by LPKF !"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Ampli Diff/" tstamps="/62B5BC1D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Ampli Diff.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AD8639</value>
+      <footprint>Lib_NGL_Proto:ADA4522-2ARZ</footprint>
+      <datasheet>https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8639</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="ADA4075-2" description="Ultralow Noise Amplifier at Lower Power, SOIC-8/LFCSP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626EA179</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AD8639</value>
+      <footprint>Lib_NGL_Proto:ADA4522-2ARZ</footprint>
+      <datasheet>https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8639</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="ADA4075-2" description="Ultralow Noise Amplifier at Lower Power, SOIC-8/LFCSP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627032CE</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>590</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62710FED</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62711DEB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62712316</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>442R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62713235</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62713709</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627140C5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62714528</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6272D9F8</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6272D9FE</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6272DA04</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6272DA0A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62713D44</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628CCBD5</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294BCD9</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A2782D</tstamp>
+    </comp>
+    <comp ref="JP10">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A2FD3C</tstamp>
+    </comp>
+    <comp ref="JP9">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62ABB6B0</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62AAA978</tstamp>
+    </comp>
+    <comp ref="JP11">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628E50CD</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62903774</tstamp>
+    </comp>
+    <comp ref="SB1">
+      <value>SB</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627CE645</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>Lib_NGL_Proto:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT54WFILMY</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6297FCDC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62709528</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6270A351</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6273531F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62736331</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>40K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627FCF12</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>40K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627FA02C</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627F86EA</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627F6840</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D_Schottky</value>
+      <footprint>Lib_NGL_Proto:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT54WFILMY</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62777FDA</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky</value>
+      <footprint>Lib_NGL_Proto:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT54WFILMY</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6276B2D9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62E4F144</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6285915F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62775F00</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626FFF47</tstamp>
+    </comp>
+    <comp ref="TPP3">
+      <value>TestPointPad</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62807395</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX922CSAT</value>
+      <footprint>Lib_NGL_Proto:SOIC127P600X175-8N</footprint>
+      <datasheet>https://docs.rs-online.com/cb30/0900766b812a5f89.pdf</datasheet>
+      <fields>
+        <field name="MPN">MAX922CSAT</field>
+      </fields>
+      <libsource lib="MAX922CSAT" part="MAX922CSAT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627DF82B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628EF4F1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628EF4EB</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284F766</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628504BE</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62824521</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62824EB5</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62825857</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628AFC68</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628B8ACC</tstamp>
+    </comp>
+    <comp ref="R2_POT1">
+      <value>R2_POT</value>
+      <footprint>Lib_NGL_Proto:3224X-1-502E</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/54/3224-776900.pdf</datasheet>
+      <fields>
+        <field name="MPN">3224X-1-103E</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627579CA</tstamp>
+    </comp>
+    <comp ref="R10_POT1">
+      <value>R2_POT</value>
+      <footprint>Lib_NGL_Proto:3224X-1-502E</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/54/3224-776900.pdf</datasheet>
+      <fields>
+        <field name="MPN">3224X-1-103E</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6275A1FB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ESP32-WROOM-32D-N16</value>
+      <footprint>Lib_NGL_Proto:XCVR_ESP32-WROOM-32E_(16MB)</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/891/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Espressif Systems</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="MPN">ESP32-WROOM-32D-N16</field>
+        <field name="PARTREV">1.4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32-WROOM-32E__16MB_" part="ESP32-WROOM-32E_(16MB)" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>6271FA86</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED_B</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>627CF753</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>25R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>627D0C44</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Lib_NGL_Proto:3-1825910-5</footprint>
+      <datasheet>https://docs.rs-online.com/7f47/0900766b8144c664.pdf</datasheet>
+      <fields>
+        <field name="MPN">3-1825910-5</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>6272E424</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Lib_NGL_Proto:3-1825910-5</footprint>
+      <datasheet>https://docs.rs-online.com/7f47/0900766b8144c664.pdf</datasheet>
+      <fields>
+        <field name="MPN">3-1825910-5</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>6272EEB0</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62732F81</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>627346B3</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>6273E840</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62742401</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>627449C1</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62746645</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62749F36</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>6274A73C</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62751C9B</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MCP3426A0-E_SN</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://docs.rs-online.com/447c/0900766b81380b5e.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP3426A0-E_SN</field>
+      </fields>
+      <libsource lib="MCP3426A0-E_SN" part="MCP3426A0-E_SN" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>627BD679</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>628E9470</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>BUMPER</value>
+      <footprint>Lib_NGL_Proto:SJ5003</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/1/Bumpon%20Molded%20Shapes%20Colored%20and%20Clear%20Series%20TDS-845047.pdf</datasheet>
+      <fields>
+        <field name="MPN">SJ5003</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>628629C6</tstamp>
+    </comp>
+    <comp ref="B2">
+      <value>BUMPER</value>
+      <footprint>Lib_NGL_Proto:SJ5003</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/1/Bumpon%20Molded%20Shapes%20Colored%20and%20Clear%20Series%20TDS-845047.pdf</datasheet>
+      <fields>
+        <field name="MPN">SJ5003</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>628647D0</tstamp>
+    </comp>
+    <comp ref="B3">
+      <value>BUMPER</value>
+      <footprint>Lib_NGL_Proto:SJ5003</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/1/Bumpon%20Molded%20Shapes%20Colored%20and%20Clear%20Series%20TDS-845047.pdf</datasheet>
+      <fields>
+        <field name="MPN">SJ5003</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62865DF0</tstamp>
+    </comp>
+    <comp ref="B4">
+      <value>BUMPER</value>
+      <footprint>Lib_NGL_Proto:SJ5003</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/1/Bumpon%20Molded%20Shapes%20Colored%20and%20Clear%20Series%20TDS-845047.pdf</datasheet>
+      <fields>
+        <field name="MPN">SJ5003</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>62867515</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32/" tstamps="/6271F3E2/"/>
+      <tstamp>6273629E</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>1043</value>
+      <footprint>Lib_NGL_Proto:BAT_1043</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/215/1043-745411.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">14.86mm</field>
+        <field name="MPN">1043</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="1043" part="1043" description=""/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>628EF407</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MAX860ESA+T</value>
+      <footprint>Lib_NGL_Proto:SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/256/MAX860-MAX861-1292176.pdf</datasheet>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">Charge Pump INV/STPUP -5.5V to -1.5V/5V to 11V 100mA 8-Pin SOIC N T/R</field>
+        <field name="MF">Maxim Integrated</field>
+        <field name="MP">MAX860ESA+T</field>
+        <field name="MPN">MAX860ESA+T</field>
+        <field name="PACKAGE">SOIC-8 Maxim Integrated</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="MAX860ESA_T" part="MAX860ESA+T" description=""/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>628F25F9</tstamp>
+    </comp>
+    <comp ref="TPP2">
+      <value>TestPointPad</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>62710BD9</tstamp>
+    </comp>
+    <comp ref="TPP4">
+      <value>TestPointPad</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>627111ED</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>62710E77</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>62711694</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>62775941</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>300K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>628AB478</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>628AC10E</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>62774F76</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>6276C25F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>6276B861</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LF33CDT-TR</value>
+      <footprint>Lib_NGL_Proto:TO228P972X240-3N</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00000546-1795528.pdf</datasheet>
+      <fields>
+        <field name="MPN">LF33CDT-TR</field>
+        <field name="OC_FARNELL">2253503</field>
+        <field name="OC_NEWARK">26M0226</field>
+        <field name="PACKAGE">DPAK</field>
+        <field name="SUPPLIER">STMicroelectronics</field>
+      </fields>
+      <libsource lib="LF33CDT-TR" part="LF33CDT-TR" description=""/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>628ED795</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>1101M2S3CQE2</value>
+      <footprint>Lib_NGL_Proto:SW_1101M2S3CQE2</footprint>
+      <datasheet>https://docs.rs-online.com/eaa8/0900766b800993da.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">CnK</field>
+      </fields>
+      <libsource lib="1101M2S3CQE2" part="1101M2S3CQE2" description=""/>
+      <sheetpath names="/ESP32/Alim/" tstamps="/6271F3E2/62744FDF/"/>
+      <tstamp>62A4F233</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>227161-2</value>
+      <footprint>Lib_NGL_Proto:TE_5227161-2</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/418/8/ENG_CD_227161_AF4-2031034.pdf</datasheet>
+      <fields>
+        <field name="MPN">227161-2</field>
+      </fields>
+      <libsource lib="5227161-2" part="5227161-2" description=""/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>6271DE8E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>127K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>6271E05B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>6271E8D0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="MPN">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>62720BA1</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="MPN">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>6272216D</tstamp>
+    </comp>
+    <comp ref="SB2">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>62A3712A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_SONDE</value>
+      <footprint>Lib_NGL_Proto:DIN8_CMS</footprint>
+      <datasheet>https://www.xylemanalytics.com/en/File%20Library/Resource%20Library/WTW/01%20Manuals/ba55301f05_TetraCon_325.pdf</datasheet>
+      <libsource lib="conn_01x08_DIN8_Sonde" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>62A51CE8</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>62A33894</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>62A33888</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole DIN 8</value>
+      <footprint>Lib_NGL_Proto:HOLE_DIN8</footprint>
+      <datasheet>https://docs.rs-online.com/cb2c/0900766b813fa3d0.pdf</datasheet>
+      <fields>
+        <field name="MPN">T3506000</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/ESP32/Alim/Connecteur_Entrées/" tstamps="/6271F3E2/62744FDF/6271D84F/"/>
+      <tstamp>628C52B1</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85803</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85809</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B8580F</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85815</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>40K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85852</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>40K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85858</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B8585E</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85864</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>Lib_NGL_Proto:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT54WFILMY</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B8586A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Lib_NGL_Proto:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT54WFILMY</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85870</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85876</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85882</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85888</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B8588E</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>AD8639</value>
+      <footprint>Lib_NGL_Proto:ADA4522-2ARZ</footprint>
+      <datasheet>https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD8639</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="ADA4075-2" description="Ultralow Noise Amplifier at Lower Power, SOIC-8/LFCSP-8"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B85894</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AD620</value>
+      <footprint>Lib_NGL_Proto:SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf</datasheet>
+      <fields>
+        <field name="MPN">AD620</field>
+      </fields>
+      <libsource lib="Amplifier_Instrumentation" part="AD620" description="Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62C37249</tstamp>
+    </comp>
+    <comp ref="POT1">
+      <value>50k</value>
+      <footprint>Lib_NGL_Proto:3224X-1-502E</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/54/3224-776900.pdf</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62CDE578</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>627C894E</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>627C8954</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>627C895A</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>627C898F</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>627DDA26</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>627DDA2C</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62828CD5</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>6282C25E</tstamp>
+    </comp>
+    <comp ref="TPP10">
+      <value>TestPointPad</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>6282F843</tstamp>
+    </comp>
+    <comp ref="TPP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>6282FCC2</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>628C2787</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>628C278D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_Schottky</value>
+      <footprint>Lib_NGL_Proto:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAT54WFILMY</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Ampli Diff/" tstamps="/62B5BC1D/"/>
+      <tstamp>62B857EB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1043" part="1043">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">1043</field>
+        <field name="Footprint">BAT_1043</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">H</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">14.86mm</field>
+      </fields>
+      <pins>
+        <pin num="N" name="~" type="passive"/>
+        <pin num="P" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1101M2S3CQE2" part="1101M2S3CQE2">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">1101M2S3CQE2</field>
+        <field name="Footprint">SW_1101M2S3CQE2</field>
+        <field name="MANUFACTURER">CnK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5227161-2" part="5227161-2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5227161-2</field>
+        <field name="Footprint">TE_5227161-2</field>
+        <field name="Number_of_Positions">1</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+        <field name="Comment">5227161-2</field>
+      </fields>
+      <pins>
+        <pin num="G" name="GND" type="power_in"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Instrumentation" part="AD620">
+      <aliases>
+        <alias>AD623</alias>
+      </aliases>
+      <description>Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf</docs>
+      <footprints>
+        <fp>SOIC*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD620</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Rg" type="passive"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="Vs-" type="power_in"/>
+        <pin num="5" name="Ref" type="passive"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="Vs+" type="power_in"/>
+        <pin num="8" name="Rg" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+        <alias>MCP6022</alias>
+        <alias>MCP6V67EMS</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="LL4148">
+      <aliases>
+        <alias>LL4448</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, MiniMELF</description>
+      <docs>http://www.vishay.com/docs/85557/ll4148.pdf</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LL4148</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-WROOM-32E__16MB_" part="ESP32-WROOM-32E_(16MB)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32E_(16MB)</field>
+        <field name="Footprint">XCVR_ESP32-WROOM-32E_(16MB)</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">1.4</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="NC" type="NotConnected"/>
+        <pin num="19" name="NC" type="NotConnected"/>
+        <pin num="20" name="NC" type="NotConnected"/>
+        <pin num="21" name="NC" type="NotConnected"/>
+        <pin num="22" name="NC" type="NotConnected"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC1" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0" type="BiDi"/>
+        <pin num="35" name="TXD0" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39_1" name="GND" type="power_in"/>
+        <pin num="39_2" name="GND" type="power_in"/>
+        <pin num="39_3" name="GND" type="power_in"/>
+        <pin num="39_4" name="GND" type="power_in"/>
+        <pin num="39_5" name="GND" type="power_in"/>
+        <pin num="39_6" name="GND" type="power_in"/>
+        <pin num="39_7" name="GND" type="power_in"/>
+        <pin num="39_8" name="GND" type="power_in"/>
+        <pin num="39_9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LF33CDT-TR" part="LF33CDT-TR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LF33CDT-TR</field>
+        <field name="Footprint">TO228P972X240-3N</field>
+        <field name="OC_FARNELL">2253503</field>
+        <field name="SUPPLIER">STMicroelectronics</field>
+        <field name="MPN">LF33CDT-TR</field>
+        <field name="PACKAGE">DPAK</field>
+        <field name="OC_NEWARK">26M0226</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX860ESA_T" part="MAX860ESA+T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX860ESA+T</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="PRICE">None</field>
+        <field name="PACKAGE">SOIC-8 Maxim Integrated</field>
+        <field name="MF">Maxim Integrated</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">Charge Pump INV/STPUP -5.5V to -1.5V/5V to 11V 100mA 8-Pin SOIC N T/R</field>
+        <field name="MP">MAX860ESA+T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FC" type="input"/>
+        <pin num="2" name="C1+" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="C1-" type="passive"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="~SHDN" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX922CSAT" part="MAX922CSAT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX922CSAT</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="INA+" type="input"/>
+        <pin num="4" name="INA-" type="input"/>
+        <pin num="5" name="INB-" type="input"/>
+        <pin num="6" name="INB+" type="input"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="OUTB" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP3426A0-E_SN" part="MCP3426A0-E_SN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3426A0-E_SN</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH1+" type="input"/>
+        <pin num="2" name="CH1-" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="CH2+" type="input"/>
+        <pin num="8" name="CH2-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn_01x08_DIN8_Sonde" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1043">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/1043.lib</uri>
+    </library>
+    <library logical="1101M2S3CQE2">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/1101M2S3CQE2.lib</uri>
+    </library>
+    <library logical="5227161-2">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/5227161-2.lib</uri>
+    </library>
+    <library logical="Amplifier_Instrumentation">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Instrumentation.lib</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="ESP32-WROOM-32E__16MB_">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/ESP32-WROOM-32E__16MB_.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="LF33CDT-TR">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/LF33CDT-TR.lib</uri>
+    </library>
+    <library logical="MAX860ESA_T">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/MAX860ESA_T.lib</uri>
+    </library>
+    <library logical="MAX922CSAT">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/MAX922CSAT.lib</uri>
+    </library>
+    <library logical="MCP3426A0-E_SN">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/MCP3426A0-E_SN.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="conn_01x08_DIN8_Sonde">
+      <uri>C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_Proto\Lib_NGL_Proto\Lib_NGL_Proto.pretty/conn_01x08_DIN8_Sonde.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="SB1" pin="1"/>
+      <node ref="TPP3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D11-Pad1)">
+      <node ref="D6" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="5" name="Net-(D11-Pad2)">
+      <node ref="R23" pin="1"/>
+      <node ref="D11" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R13-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="7" name="-3V3">
+      <node ref="U6" pin="5"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="8" name="-BATT">
+      <node ref="R21" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="6"/>
+      <node ref="J4" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U4" pin="39_8"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U4" pin="1"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U4" pin="39_9"/>
+      <node ref="U4" pin="39_7"/>
+      <node ref="U4" pin="39_6"/>
+      <node ref="U4" pin="39_5"/>
+      <node ref="U4" pin="39_4"/>
+      <node ref="U4" pin="39_3"/>
+      <node ref="U4" pin="39_2"/>
+      <node ref="U4" pin="39_1"/>
+      <node ref="U4" pin="38"/>
+      <node ref="C1" pin="2"/>
+      <node ref="BT1" pin="N"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="3"/>
+      <node ref="TPP4" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="SB2" pin="2"/>
+      <node ref="J3" pin="G"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J4" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="8"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="10" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="11" name="Net-(SB1-Pad2)">
+      <node ref="SB1" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="14" name="CLOCK_GEN">
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="15" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C9-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R22-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="18" name="Net-(R25-Pad2)">
+      <node ref="TP5" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="19" name="OUT_SENS">
+      <node ref="U9" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R2-Pad2)">
+      <node ref="R2_POT1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(JP11-Pad2)">
+      <node ref="JP11" pin="2"/>
+      <node ref="R2_POT1" pin="1"/>
+      <node ref="R2_POT1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(JP11-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="JP11" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(JP3-Pad2)">
+      <node ref="R10_POT1" pin="1"/>
+      <node ref="R10_POT1" pin="2"/>
+      <node ref="JP3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(JP3-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="25" name="Net-(R34-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R10_POT1" pin="3"/>
+    </net>
+    <net code="27" name="Net-(JP8-Pad1)">
+      <node ref="JP9" pin="2"/>
+      <node ref="JP8" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="28" name="Net-(JP10-Pad2)">
+      <node ref="JP4" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="JP10" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="29" name="DIFF-">
+      <node ref="J1" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="30" name="CURRENT_4">
+      <node ref="U1" pin="1"/>
+      <node ref="JP10" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="31" name="CURRENT_3">
+      <node ref="J1" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="JP8" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="32" name="DIFF+">
+      <node ref="JP9" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="33" name="SCL">
+      <node ref="U4" pin="33"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="34" name="SDA">
+      <node ref="U4" pin="36"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="35" name="OUT_DIFF">
+      <node ref="TP4" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="36" name="Net-(U4-Pad37)">
+      <node ref="U4" pin="37"/>
+    </net>
+    <net code="37" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="38" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="39" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="40" name="OUT_NTC">
+      <node ref="J1" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="41" name="Net-(R21-Pad2)">
+      <node ref="U4" pin="24"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="42" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="43" name="Net-(R20-Pad2)">
+      <node ref="U4" pin="11"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="44" name="+BATT">
+      <node ref="J6" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="45" name="NEO">
+      <node ref="J6" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad26)">
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad29)">
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="48" name="Net-(U4-Pad27)">
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="49" name="Net-(U4-Pad28)">
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad30)">
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="51" name="MISO">
+      <node ref="J4" pin="3"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="52" name="MOSI">
+      <node ref="U4" pin="16"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="53" name="CLK">
+      <node ref="J4" pin="4"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="54" name="CS">
+      <node ref="J4" pin="1"/>
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="55" name="Net-(U4-Pad32)">
+      <node ref="U4" pin="32"/>
+    </net>
+    <net code="56" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="57" name="OUT_BAT">
+      <node ref="R1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="58" name="Net-(U4-Pad17)">
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="59" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="60" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="61" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="62" name="Net-(U4-Pad21)">
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="63" name="Net-(U4-Pad22)">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="64" name="UART_TX">
+      <node ref="R19" pin="1"/>
+      <node ref="U4" pin="35"/>
+    </net>
+    <net code="65" name="UART_RX">
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="34"/>
+    </net>
+    <net code="66" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="67" name="Net-(D10-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="68" name="Net-(SW4-Pad1)">
+      <node ref="U4" pin="25"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C19-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="70" name="Net-(J2-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="71" name="Net-(J2-Pad3)">
+      <node ref="R18" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="72" name="Net-(D2-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D3-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="74" name="Net-(R30-Pad1)">
+      <node ref="U8" pin="5"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="75" name="Net-(R28-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="76" name="Net-(D2-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="77" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="78" name="Net-(POT1-Pad3)">
+      <node ref="POT1" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="TPP10" pin="1"/>
+    </net>
+    <net code="79" name="Net-(POT1-Pad1)">
+      <node ref="U7" pin="8"/>
+      <node ref="TPP6" pin="1"/>
+      <node ref="POT1" pin="1"/>
+      <node ref="POT1" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C20-Pad1)">
+      <node ref="R32" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R31-Pad2)">
+      <node ref="TP12" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="82" name="Net-(R16-Pad1)">
+      <node ref="TP11" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U7" pin="6"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="83" name="Net-(C21-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="84" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="85" name="Net-(BT1-PadP)">
+      <node ref="S1" pin="2"/>
+      <node ref="TPP2" pin="1"/>
+      <node ref="BT1" pin="P"/>
+    </net>
+    <net code="86" name="Net-(C16-Pad2)">
+      <node ref="U6" pin="4"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="87" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="88" name="Net-(J1-Pad7)">
+      <node ref="SB2" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="89" name="Net-(D1-Pad2)">
+      <node ref="D7" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="90" name="IN_COAX">
+      <node ref="J3" pin="S"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Lib_NGL_Proto)(type KiCad)(uri ${LIBNGL})(options "")(descr ""))
+  (lib (name Lib_NGL_EURO)(type KiCad)(uri C:/Users/b.giraud-missier.WKS-TH-BE-03/Desktop/NGL_Proto_EURO/Lib_NGL_Proto/Lib_NGL_Proto.pretty)(options "")(descr ""))
+)

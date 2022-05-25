@@ -1,0 +1,175 @@
+EESchema Schematic File Version 4
+LIBS:NGL_Proto-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "NGL_Proto"
+Date "2022-05-02"
+Rev "V1"
+Comp "ADTP"
+Comment1 "Usinage by LPKF !"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 5227161-2:5227161-2 J?
+U 1 1 6271DE8E
+P 3410 3295
+AR Path="/6271F3E2/62744FDF/6271DE8E" Ref="J?"  Part="1" 
+AR Path="/6271F3E2/62744FDF/6271D84F/6271DE8E" Ref="J3"  Part="1" 
+F 0 "J3" H 3640 3341 50  0000 L CNN
+F 1 "5227161-2" H 3640 3250 50  0000 L CNN
+F 2 "Lib_NGL_Proto:TE_5227161-2" H 3410 3295 50  0001 L BNN
+F 3 "" H 3410 3295 50  0001 L BNN
+F 4 "1" H 3410 3295 50  0001 L BNN "Number_of_Positions"
+F 5 "Compliant with Exemptions" H 3410 3295 50  0001 L BNN "EU_RoHS_Compliance"
+F 6 "5227161-2" H 3410 3295 50  0001 L BNN "Comment"
+	1    3410 3295
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6271E05B
+P 6745 3475
+F 0 "R3" H 6815 3521 50  0000 L CNN
+F 1 "127K" H 6815 3430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6675 3475 50  0001 C CNN
+F 3 "~" H 6745 3475 50  0001 C CNN
+	1    6745 3475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6271E8D0
+P 8220 3455
+F 0 "R14" H 8290 3501 50  0000 L CNN
+F 1 "1K" H 8290 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8150 3455 50  0001 C CNN
+F 3 "~" H 8220 3455 50  0001 C CNN
+	1    8220 3455
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D1
+U 1 1 62720BA1
+P 7200 3105
+F 0 "D1" V 7154 3185 50  0000 L CNN
+F 1 "LL4148" V 7245 3185 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7200 2930 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7200 3105 50  0001 C CNN
+	1    7200 3105
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D9
+U 1 1 627218A5
+P 7690 3105
+F 0 "D9" V 7644 3185 50  0000 L CNN
+F 1 "LL4148" V 7735 3185 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7690 2930 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7690 3105 50  0001 C CNN
+	1    7690 3105
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D7
+U 1 1 6272216D
+P 7200 3895
+F 0 "D7" V 7154 3975 50  0000 L CNN
+F 1 "LL4148" V 7245 3975 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7200 3720 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7200 3895 50  0001 C CNN
+	1    7200 3895
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D8
+U 1 1 627227F2
+P 7690 3895
+F 0 "D8" V 7644 3975 50  0000 L CNN
+F 1 "LL4148" V 7735 3975 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7690 3720 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7690 3895 50  0001 C CNN
+	1    7690 3895
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 6272368F
+P 2880 3470
+F 0 "#PWR023" H 2880 3220 50  0001 C CNN
+F 1 "GND" H 2885 3297 50  0000 C CNN
+F 2 "" H 2880 3470 50  0001 C CNN
+F 3 "" H 2880 3470 50  0001 C CNN
+	1    2880 3470
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR021
+U 1 1 62725FE3
+P 7425 2780
+F 0 "#PWR021" H 7425 2630 50  0001 C CNN
+F 1 "+3.3V" H 7440 2953 50  0000 C CNN
+F 2 "" H 7425 2780 50  0001 C CNN
+F 3 "" H 7425 2780 50  0001 C CNN
+	1    7425 2780
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-3V3 #PWR022
+U 1 1 62726408
+P 7425 4330
+F 0 "#PWR022" H 7425 4430 50  0001 C CNN
+F 1 "-3V3" H 7440 4503 50  0000 C CNN
+F 2 "" H 7425 4330 50  0001 C CNN
+F 3 "" H 7425 4330 50  0001 C CNN
+	1    7425 4330
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2880 3470 2880 3395
+Wire Wire Line
+	2880 3395 3010 3395
+Text GLabel 2800 3195 0    50   Input ~ 0
+IN_COAX
+Text GLabel 5925 3475 0    50   Input ~ 0
+IN_COAX
+Wire Wire Line
+	3010 3195 2800 3195
+Wire Wire Line
+	5925 3475 6595 3475
+Wire Wire Line
+	6895 3475 7200 3475
+Wire Wire Line
+	7200 3475 7200 3255
+Wire Wire Line
+	7200 3745 7200 3475
+Connection ~ 7200 3475
+Wire Wire Line
+	7200 2955 7200 2855
+Wire Wire Line
+	7200 4045 7200 4155
+Wire Wire Line
+	7200 4155 7425 4155
+Wire Wire Line
+	7425 4155 7425 4330
+Wire Wire Line
+	7200 2855 7690 2855
+Wire Wire Line
+	7690 2855 7690 2955
+Wire Wire Line
+	7690 4045 7690 4155
+Wire Wire Line
+	7690 4155 7425 4155
+Connection ~ 7425 4155
+Wire Wire Line
+	7690 3745 7690 3455
+Wire Wire Line
+	8070 3455 7690 3455
+Connection ~ 7690 3455
+Wire Wire Line
+	7690 3455 7690 3255
+$EndSCHEMATC

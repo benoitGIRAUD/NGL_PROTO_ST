@@ -1,1 +1,0 @@
-# NGL_PROTO_ST

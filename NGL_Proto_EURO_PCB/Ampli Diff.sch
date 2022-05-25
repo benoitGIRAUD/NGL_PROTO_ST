@@ -1,0 +1,842 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	7305 5325 3105 5325
+Wire Wire Line
+	6420 3050 6570 3050
+Connection ~ 6420 3050
+Wire Wire Line
+	6420 4045 6360 4045
+Connection ~ 6420 4045
+Wire Wire Line
+	6420 4045 6420 3050
+Text Notes 3145 5290 0    79   ~ 16
+Redressement
+Wire Notes Line
+	3105 2790 3105 5325
+Wire Notes Line
+	7305 2790 7305 5325
+Wire Notes Line
+	3105 2790 7305 2790
+Text Notes 7485 5265 0    79   ~ 16
+Filtrage 3° Ordre
+Wire Notes Line
+	7360 3725 7360 5325
+Wire Wire Line
+	3725 4845 3725 4745
+$Comp
+L power:GND #PWR056
+U 1 1 62B857F2
+P 3725 4845
+F 0 "#PWR056" H 3725 4595 50  0001 C CNN
+F 1 "GND" H 3870 4765 50  0000 C CNN
+F 2 "" H 3725 4845 50  0001 C CNN
+F 3 "" H 3725 4845 50  0001 C CNN
+	1    3725 4845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7955 4640 7955 4845
+Wire Wire Line
+	7210 4145 7075 4145
+Connection ~ 7210 4145
+Wire Wire Line
+	7210 3050 7210 4145
+Wire Wire Line
+	6870 3050 7210 3050
+Wire Wire Line
+	4360 3050 6420 3050
+Wire Wire Line
+	3210 4045 3425 4045
+Connection ~ 3210 4045
+Wire Wire Line
+	3210 3050 4060 3050
+Wire Wire Line
+	3210 4045 3210 3050
+Wire Wire Line
+	7570 4145 7430 4145
+$Comp
+L Device:R R32
+U 1 1 62B85803
+P 7720 4145
+F 0 "R32" H 7790 4191 50  0000 L CNN
+F 1 "10K" H 7790 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7650 4145 50  0001 C CNN
+F 3 "~" H 7720 4145 50  0001 C CNN
+	1    7720 4145
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 62B85809
+P 8185 4145
+F 0 "R33" H 8255 4191 50  0000 L CNN
+F 1 "10K" H 8255 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8115 4145 50  0001 C CNN
+F 3 "~" H 8185 4145 50  0001 C CNN
+	1    8185 4145
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 62B8580F
+P 7955 4435
+F 0 "C20" H 8070 4481 50  0000 L CNN
+F 1 "47uF" H 8070 4390 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7993 4285 50  0001 C CNN
+F 3 "~" H 7955 4435 50  0001 C CNN
+	1    7955 4435
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 62B85815
+P 8575 4435
+F 0 "C21" H 8690 4481 50  0000 L CNN
+F 1 "47uF" H 8690 4390 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8613 4285 50  0001 C CNN
+F 3 "~" H 8575 4435 50  0001 C CNN
+	1    8575 4435
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7955 4285 7955 4145
+Wire Wire Line
+	7870 4145 7955 4145
+Connection ~ 7955 4145
+Wire Wire Line
+	7955 4145 8035 4145
+Wire Wire Line
+	8335 4145 8575 4145
+Wire Wire Line
+	8575 4145 8575 4285
+$Comp
+L power:GND #PWR058
+U 1 1 62B85822
+P 7955 4845
+F 0 "#PWR058" H 7955 4595 50  0001 C CNN
+F 1 "GND" H 7955 4695 50  0000 C CNN
+F 2 "" H 7955 4845 50  0001 C CNN
+F 3 "" H 7955 4845 50  0001 C CNN
+	1    7955 4845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 4640 8575 4585
+Wire Wire Line
+	8575 4640 7955 4640
+Connection ~ 7955 4640
+Wire Wire Line
+	7955 4640 7955 4585
+Text GLabel 10085 4145 2    50   Output ~ 0
+OUT_DIFF
+Wire Wire Line
+	6360 4845 6360 4740
+Wire Wire Line
+	6360 4245 6360 4440
+Wire Wire Line
+	6475 4245 6360 4245
+Wire Wire Line
+	6475 4045 6420 4045
+Wire Wire Line
+	5130 3695 5130 3795
+Connection ~ 5130 3695
+Wire Wire Line
+	5840 4045 6060 4045
+Wire Wire Line
+	5840 3695 5840 4045
+Wire Wire Line
+	5130 3695 5840 3695
+Wire Wire Line
+	3860 3695 3860 3455
+Connection ~ 3860 3695
+Wire Wire Line
+	4795 3695 3860 3695
+Wire Wire Line
+	4795 3795 4795 3695
+Connection ~ 4795 4145
+Wire Wire Line
+	5130 4145 5130 4095
+Wire Wire Line
+	4795 4145 5130 4145
+Wire Wire Line
+	4795 4145 4795 4095
+Wire Wire Line
+	4550 4145 4795 4145
+Wire Wire Line
+	5130 3455 5130 3695
+Wire Wire Line
+	4355 3455 5130 3455
+Wire Wire Line
+	3860 4045 3725 4045
+Connection ~ 3860 4045
+Wire Wire Line
+	3860 3455 4055 3455
+Wire Wire Line
+	3860 4045 3860 3695
+Wire Wire Line
+	3950 4045 3860 4045
+Wire Wire Line
+	3725 4245 3950 4245
+Wire Wire Line
+	3725 4445 3725 4245
+$Comp
+L power:GND #PWR057
+U 1 1 62B8584C
+P 6360 4845
+F 0 "#PWR057" H 6360 4595 50  0001 C CNN
+F 1 "GND" H 6505 4765 50  0000 C CNN
+F 2 "" H 6360 4845 50  0001 C CNN
+F 3 "" H 6360 4845 50  0001 C CNN
+	1    6360 4845
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 62B85852
+P 6720 3050
+F 0 "R31" H 6790 3096 50  0000 L CNN
+F 1 "40K" H 6790 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6650 3050 50  0001 C CNN
+F 3 "~" H 6720 3050 50  0001 C CNN
+	1    6720 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 62B85858
+P 4210 3050
+F 0 "R28" H 4280 3096 50  0000 L CNN
+F 1 "40K" H 4280 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4140 3050 50  0001 C CNN
+F 3 "~" H 4210 3050 50  0001 C CNN
+	1    4210 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 62B8585E
+P 6210 4045
+F 0 "R29" H 6280 4091 50  0000 L CNN
+F 1 "20K" H 6280 4000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6140 4045 50  0001 C CNN
+F 3 "~" H 6210 4045 50  0001 C CNN
+	1    6210 4045
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 62B85864
+P 6360 4590
+F 0 "R30" H 6430 4636 50  0000 L CNN
+F 1 "10K" H 6430 4545 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6290 4590 50  0001 C CNN
+F 3 "~" H 6360 4590 50  0001 C CNN
+	1    6360 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 62B8586A
+P 5130 3945
+F 0 "D3" V 5130 3866 50  0000 R CNN
+F 1 "D_Schottky" V 5085 3866 50  0001 R CNN
+F 2 "Lib_NGL_Proto:SOT-323_SC-70_Handsoldering" H 5130 3945 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf" H 5130 3945 50  0001 C CNN
+F 4 "" H 5130 3945 50  0001 C CNN "Comment"
+F 5 "BAT54WFILMY" H 5130 3945 50  0001 C CNN "MPN"
+	1    5130 3945
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 62B85870
+P 4795 3945
+F 0 "D2" V 4795 4024 50  0000 L CNN
+F 1 "D_Schottky" V 4840 4024 50  0001 L CNN
+F 2 "Lib_NGL_Proto:SOT-323_SC-70_Handsoldering" H 4795 3945 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf" H 4795 3945 50  0001 C CNN
+F 4 "" H 4795 3945 50  0001 C CNN "Comment"
+F 5 "BAT54WFILMY" H 4795 3945 50  0001 C CNN "MPN"
+	1    4795 3945
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 62B85876
+P 3725 4595
+F 0 "R26" H 3795 4641 50  0000 L CNN
+F 1 "10K" H 3795 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3655 4595 50  0001 C CNN
+F 3 "~" H 3725 4595 50  0001 C CNN
+	1    3725 4595
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 62B85882
+P 9310 3645
+F 0 "TP4" H 9368 3763 50  0000 L CNN
+F 1 "TestPoint" H 9368 3672 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9510 3645 50  0001 C CNN
+F 3 "~" H 9510 3645 50  0001 C CNN
+	1    9310 3645
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 62B85888
+P 3575 4045
+F 0 "R16" H 3645 4091 50  0000 L CNN
+F 1 "20K" H 3645 4000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3505 4045 50  0001 C CNN
+F 3 "~" H 3575 4045 50  0001 C CNN
+	1    3575 4045
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 62B8588E
+P 4205 3455
+F 0 "R27" H 4275 3501 50  0000 L CNN
+F 1 "20K" H 4275 3410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4135 3455 50  0001 C CNN
+F 3 "~" H 4205 3455 50  0001 C CNN
+	1    4205 3455
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:ADA4075-2 U8
+U 2 1 62B85894
+P 6775 4145
+F 0 "U8" H 6775 4512 50  0000 C CNN
+F 1 "AD8639" H 6775 4421 50  0000 C CNN
+F 2 "Lib_NGL_Proto:ADA4522-2ARZ" H 6775 4145 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 6775 4145 50  0001 C CNN
+F 4 "AD8639" H 6775 4145 50  0001 C CNN "MPN"
+	2    6775 4145
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:ADA4075-2 U8
+U 1 1 62B8589A
+P 4250 4145
+F 0 "U8" H 4250 4512 50  0000 C CNN
+F 1 "AD8639" H 4250 4421 50  0000 C CNN
+F 2 "Lib_NGL_Proto:ADA4522-2ARZ" H 4250 4145 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 4250 4145 50  0001 C CNN
+F 4 "AD8639" H 4250 4145 50  0001 C CNN "MPN"
+	1    4250 4145
+	1    0    0    1   
+$EndComp
+$Comp
+L power:-3V3 #PWR?
+U 1 1 62C279E8
+P 1970 4505
+AR Path="/62C279E8" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/62C279E8" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 1970 4605 50  0001 C CNN
+F 1 "-3V3" H 1985 4678 50  0000 C CNN
+F 2 "" H 1970 4505 50  0001 C CNN
+F 3 "" H 1970 4505 50  0001 C CNN
+	1    1970 4505
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62C279EE
+P 2170 4505
+AR Path="/62C279EE" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/62C279EE" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 2170 4255 50  0001 C CNN
+F 1 "GND" H 2175 4332 50  0000 C CNN
+F 2 "" H 2170 4505 50  0001 C CNN
+F 3 "" H 2170 4505 50  0001 C CNN
+	1    2170 4505
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62C279F4
+P 1970 3625
+AR Path="/62C279F4" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/62C279F4" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 1970 3475 50  0001 C CNN
+F 1 "+3V3" H 1985 3798 50  0000 C CNN
+F 2 "" H 1970 3625 50  0001 C CNN
+F 3 "" H 1970 3625 50  0001 C CNN
+	1    1970 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Instrumentation:AD620 U?
+U 1 1 62C37249
+P 2070 4045
+AR Path="/62C37249" Ref="U?"  Part="1" 
+AR Path="/62B5BC1D/62C37249" Ref="U7"  Part="1" 
+F 0 "U7" H 2205 4195 50  0000 L CNN
+F 1 "AD620" H 2145 4285 50  0000 L CNN
+F 2 "Lib_NGL_Proto:SOIC127P600X175-8N" H 2070 4045 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf" H 2070 4045 50  0001 C CNN
+F 4 "AD620" H 2070 4045 50  0001 C CNN "MPN"
+	1    2070 4045
+	1    0    0    -1  
+$EndComp
+Text GLabel 1355 3845 0    50   Input ~ 0
+DIFF-
+Text GLabel 1355 4245 0    50   Input ~ 0
+DIFF+
+Wire Wire Line
+	1355 4245 1670 4245
+Wire Wire Line
+	1670 3845 1355 3845
+Wire Wire Line
+	2470 4045 2795 4045
+Wire Wire Line
+	1970 4505 1970 4345
+Wire Wire Line
+	2170 4345 2170 4505
+Wire Wire Line
+	1970 3745 1970 3625
+$Comp
+L Device:R_POT POT?
+U 1 1 62CDE578
+P 825 4045
+AR Path="/62CDE578" Ref="POT?"  Part="1" 
+AR Path="/62B5BC1D/62CDE578" Ref="POT1"  Part="1" 
+F 0 "POT1" H 1115 3940 50  0000 R CNN
+F 1 "50k" H 756 4000 50  0001 R CNN
+F 2 "Lib_NGL_Proto:3224X-1-502E" H 825 4045 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/54/3224-776900.pdf" H 825 4045 50  0001 C CNN
+	1    825  4045
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1670 3945 1020 3945
+Wire Wire Line
+	1020 3945 1020 3850
+Wire Wire Line
+	1020 3850 825  3850
+Wire Wire Line
+	825  3850 825  3895
+Text Notes 1500 2000 0    79   ~ 16
+Ampli d'instrutumentation + Redressement + Filtrage
+Wire Wire Line
+	1220 6155 1220 6125
+Wire Wire Line
+	1220 6485 1220 6455
+Connection ~ 1220 6485
+Wire Wire Line
+	1685 6485 1685 6500
+Wire Wire Line
+	1220 6485 1685 6485
+Wire Wire Line
+	1220 6520 1220 6485
+Wire Wire Line
+	1220 6820 1220 6850
+$Comp
+L power:GND #PWR?
+U 1 1 627DDA20
+P 1685 6500
+AR Path="/627DDA20" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/627DDA20" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 1685 6250 50  0001 C CNN
+F 1 "GND" H 1690 6327 50  0000 C CNN
+F 2 "" H 1685 6500 50  0001 C CNN
+F 3 "" H 1685 6500 50  0001 C CNN
+	1    1685 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 627DDA26
+P 1220 6670
+AR Path="/627DDA26" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/627DDA26" Ref="C23"  Part="1" 
+F 0 "C23" H 1335 6716 50  0000 L CNN
+F 1 "100nF" H 1335 6625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1258 6520 50  0001 C CNN
+F 3 "~" H 1220 6670 50  0001 C CNN
+	1    1220 6670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 627DDA2C
+P 1220 6305
+AR Path="/627DDA2C" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/627DDA2C" Ref="C22"  Part="1" 
+F 0 "C22" H 1335 6351 50  0000 L CNN
+F 1 "100nF" H 1335 6260 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1258 6155 50  0001 C CNN
+F 3 "~" H 1220 6305 50  0001 C CNN
+	1    1220 6305
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-3V3 #PWR?
+U 1 1 627DDA32
+P 1220 6850
+AR Path="/627DDA32" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/627DDA32" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 1220 6950 50  0001 C CNN
+F 1 "-3V3" H 1235 7023 50  0000 C CNN
+F 2 "" H 1220 6850 50  0001 C CNN
+F 3 "" H 1220 6850 50  0001 C CNN
+	1    1220 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 627DDA38
+P 1220 6125
+AR Path="/627DDA38" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/627DDA38" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 1220 5975 50  0001 C CNN
+F 1 "+3V3" H 1235 6298 50  0000 C CNN
+F 2 "" H 1220 6125 50  0001 C CNN
+F 3 "" H 1220 6125 50  0001 C CNN
+	1    1220 6125
+	1    0    0    -1  
+$EndComp
+Text Notes 1645 6135 0    50   ~ 10
+Découplage U7\n
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62828CD5
+P 7430 3645
+AR Path="/62828CD5" Ref="TP?"  Part="1" 
+AR Path="/62B5BC1D/62828CD5" Ref="TP12"  Part="1" 
+F 0 "TP12" H 7488 3763 50  0000 L CNN
+F 1 "TestPoint" H 7488 3672 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7630 3645 50  0001 C CNN
+F 3 "~" H 7630 3645 50  0001 C CNN
+	1    7430 3645
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6282C25E
+P 2795 3790
+AR Path="/6282C25E" Ref="TP?"  Part="1" 
+AR Path="/62B5BC1D/6282C25E" Ref="TP11"  Part="1" 
+F 0 "TP11" H 2853 3908 50  0000 L CNN
+F 1 "TestPoint" H 2853 3817 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2995 3790 50  0001 C CNN
+F 3 "~" H 2995 3790 50  0001 C CNN
+	1    2795 3790
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6282F843
+P 825 3730
+AR Path="/6282F843" Ref="TP?"  Part="1" 
+AR Path="/62B5BC1D/6282F843" Ref="TPP10"  Part="1" 
+F 0 "TPP10" H 883 3848 50  0000 L CNN
+F 1 "TestPointPad" H 883 3757 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 1025 3730 50  0001 C CNN
+F 3 "~" H 1025 3730 50  0001 C CNN
+	1    825  3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6282FCC2
+P 825 4405
+AR Path="/6282FCC2" Ref="TP?"  Part="1" 
+AR Path="/62B5BC1D/6282FCC2" Ref="TPP6"  Part="1" 
+F 0 "TPP6" H 883 4523 50  0000 L CNN
+F 1 "TestPoint" H 883 4432 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 1025 4405 50  0001 C CNN
+F 3 "~" H 1025 4405 50  0001 C CNN
+	1    825  4405
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7430 3645 7430 4145
+Connection ~ 7430 4145
+Wire Wire Line
+	7430 4145 7210 4145
+Wire Wire Line
+	2795 3790 2795 4045
+Connection ~ 2795 4045
+Wire Wire Line
+	2795 4045 3210 4045
+Wire Wire Line
+	825  3730 825  3850
+Connection ~ 825  3850
+$Comp
+L Device:C C?
+U 1 1 628C2787
+P 9070 4440
+AR Path="/628C2787" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/628C2787" Ref="C29"  Part="1" 
+F 0 "C29" H 9185 4486 50  0000 L CNN
+F 1 "47uF" H 9185 4395 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9108 4290 50  0001 C CNN
+F 3 "~" H 9070 4440 50  0001 C CNN
+	1    9070 4440
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628C278D
+P 8855 4145
+AR Path="/628C278D" Ref="R?"  Part="1" 
+AR Path="/62B5BC1D/628C278D" Ref="R37"  Part="1" 
+F 0 "R37" H 8925 4191 50  0000 L CNN
+F 1 "10K" H 8925 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8785 4145 50  0001 C CNN
+F 3 "~" H 8855 4145 50  0001 C CNN
+	1    8855 4145
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D5
+U 1 1 62B857EB
+P 9485 4435
+F 0 "D5" V 9480 4480 50  0000 L CNN
+F 1 "D_Schottky" V 9440 4356 50  0001 R CNN
+F 2 "Lib_NGL_Proto:SOT-323_SC-70_Handsoldering" H 9485 4435 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/389/cd00278204-1797144.pdf" H 9485 4435 50  0001 C CNN
+F 4 "" H 9485 4435 50  0001 C CNN "Comment"
+F 5 "BAT54WFILMY" H 9485 4435 50  0001 C CNN "MPN"
+	1    9485 4435
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8575 4640 9070 4640
+Wire Wire Line
+	9070 4640 9070 4590
+Connection ~ 8575 4640
+Wire Wire Line
+	8575 4145 8705 4145
+Connection ~ 8575 4145
+Wire Wire Line
+	9005 4145 9070 4145
+Wire Wire Line
+	9070 4145 9070 4290
+Wire Wire Line
+	9070 4640 9485 4640
+Wire Wire Line
+	9485 4640 9485 4585
+Connection ~ 9070 4640
+Wire Wire Line
+	9485 4285 9485 4145
+Connection ~ 9070 4145
+Connection ~ 9485 4145
+Wire Notes Line
+	9895 5325 9895 3725
+Wire Notes Line
+	7360 5325 9895 5325
+Wire Notes Line
+	7360 3725 9895 3725
+Wire Wire Line
+	9485 4145 10085 4145
+Wire Wire Line
+	9070 4145 9310 4145
+Wire Wire Line
+	9310 3645 9310 4145
+Connection ~ 9310 4145
+Wire Wire Line
+	9310 4145 9485 4145
+Wire Wire Line
+	970  4145 970  4245
+Wire Wire Line
+	970  4245 825  4245
+Wire Wire Line
+	555  4245 555  4045
+Wire Wire Line
+	555  4045 635  4045
+Wire Wire Line
+	970  4145 1670 4145
+Wire Wire Line
+	825  4195 825  4220
+Wire Wire Line
+	825  4220 635  4220
+Wire Wire Line
+	635  4220 635  4045
+Connection ~ 635  4045
+Wire Wire Line
+	635  4045 675  4045
+Wire Wire Line
+	825  4405 825  4245
+Connection ~ 825  4245
+Wire Wire Line
+	825  4245 555  4245
+Text Label 2555 4045 0    50   ~ 10
+620
+$Comp
+L Amplifier_Operational:ADA4075-2 U?
+U 3 1 62992BA3
+P 4675 6115
+AR Path="/62992BA3" Ref="U?"  Part="3" 
+AR Path="/62B5BC1D/62992BA3" Ref="U8"  Part="3" 
+F 0 "U8" H 4245 6175 50  0000 L CNN
+F 1 "AD8639" H 4035 6065 50  0000 L CNN
+F 2 "Lib_NGL_Proto:ADA4522-2ARZ" H 4675 6115 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 4675 6115 50  0001 C CNN
+F 4 "AD8639" H 4675 6115 50  0001 C CNN "MPN"
+	3    4675 6115
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62992BA9
+P 5025 5930
+AR Path="/62992BA9" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/62992BA9" Ref="C24"  Part="1" 
+F 0 "C24" H 5140 5976 50  0000 L CNN
+F 1 "4.7uF" H 5140 5885 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5063 5780 50  0001 C CNN
+F 3 "~" H 5025 5930 50  0001 C CNN
+	1    5025 5930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62992BAF
+P 5465 5930
+AR Path="/62992BAF" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/62992BAF" Ref="C26"  Part="1" 
+F 0 "C26" H 5580 5976 50  0000 L CNN
+F 1 "100nF" H 5580 5885 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5503 5780 50  0001 C CNN
+F 3 "~" H 5465 5930 50  0001 C CNN
+	1    5465 5930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62992BB5
+P 5025 6305
+AR Path="/62992BB5" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/62992BB5" Ref="C25"  Part="1" 
+F 0 "C25" H 5140 6351 50  0000 L CNN
+F 1 "4.7uF" H 5140 6260 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5063 6155 50  0001 C CNN
+F 3 "~" H 5025 6305 50  0001 C CNN
+	1    5025 6305
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62992BBB
+P 5465 6305
+AR Path="/62992BBB" Ref="C?"  Part="1" 
+AR Path="/62B5BC1D/62992BBB" Ref="C27"  Part="1" 
+F 0 "C27" H 5580 6351 50  0000 L CNN
+F 1 "100nF" H 5580 6260 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5503 6155 50  0001 C CNN
+F 3 "~" H 5465 6305 50  0001 C CNN
+	1    5465 6305
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62992BC1
+P 6035 6150
+AR Path="/62992BC1" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/62992BC1" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 6035 5900 50  0001 C CNN
+F 1 "GND" H 6040 5977 50  0000 C CNN
+F 2 "" H 6035 6150 50  0001 C CNN
+F 3 "" H 6035 6150 50  0001 C CNN
+	1    6035 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-3V3 #PWR?
+U 1 1 62992BC7
+P 4575 6485
+AR Path="/62992BC7" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/62992BC7" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 4575 6585 50  0001 C CNN
+F 1 "-3V3" H 4590 6658 50  0000 C CNN
+F 2 "" H 4575 6485 50  0001 C CNN
+F 3 "" H 4575 6485 50  0001 C CNN
+	1    4575 6485
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62992BCD
+P 4575 5750
+AR Path="/62992BCD" Ref="#PWR?"  Part="1" 
+AR Path="/62B5BC1D/62992BCD" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4575 5600 50  0001 C CNN
+F 1 "+3V3" H 4590 5923 50  0000 C CNN
+F 2 "" H 4575 5750 50  0001 C CNN
+F 3 "" H 4575 5750 50  0001 C CNN
+	1    4575 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 6485 4575 6450
+Wire Wire Line
+	4575 5815 4575 5780
+Wire Wire Line
+	6035 6110 6035 6150
+Wire Wire Line
+	4815 5780 4815 5750
+Wire Wire Line
+	4815 5750 5025 5750
+Wire Wire Line
+	5025 5750 5025 5780
+Wire Wire Line
+	5025 5750 5465 5750
+Wire Wire Line
+	5465 5750 5465 5780
+Connection ~ 5025 5750
+Wire Wire Line
+	4575 6450 4815 6450
+Wire Wire Line
+	4815 6450 4815 6500
+Wire Wire Line
+	4815 6500 5025 6500
+Wire Wire Line
+	5025 6500 5025 6455
+Connection ~ 4575 6450
+Wire Wire Line
+	4575 6450 4575 6415
+Wire Wire Line
+	5025 6500 5465 6500
+Wire Wire Line
+	5465 6500 5465 6455
+Connection ~ 5025 6500
+Text Notes 5800 6630 0    50   ~ 10
+Découplage AOP 2
+Wire Wire Line
+	4815 5780 4575 5780
+Connection ~ 4575 5780
+Wire Wire Line
+	4575 5780 4575 5750
+Wire Wire Line
+	5025 6080 5025 6110
+Wire Wire Line
+	5465 6155 5465 6110
+Wire Wire Line
+	6035 6110 5465 6110
+Connection ~ 5465 6110
+Wire Wire Line
+	5465 6110 5465 6080
+Wire Wire Line
+	5465 6110 5025 6110
+Connection ~ 5025 6110
+Wire Wire Line
+	5025 6110 5025 6155
+$EndSCHEMATC
