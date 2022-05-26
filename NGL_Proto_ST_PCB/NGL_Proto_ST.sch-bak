@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
-Title "NGL_Proto"
-Date "2022-05-02"
-Rev "V1"
+Sheet 1 6
+Title "NGL_Proto_V2"
+Date "2022-05-27"
+Rev "V2"
 Comp "ADTP"
-Comment1 "Usinage by LPKF"
-Comment2 ""
-Comment3 ""
+Comment1 "Auteur: Benoît"
+Comment2 "Proto avec potar numérique + intégration"
+Comment3 "Sous traité chez JLCPCB"
 Comment4 ""
 $EndDescr
 $Comp
@@ -1307,8 +1307,6 @@ Wire Wire Line
 	3625 2150 3625 2070
 Text Label 2550 1920 0    50   ~ 0
 R2
-Text Notes 9000 985  0    79   ~ 16
-Header coté BOT\navec soudure coté TOP\nMettre cal pour soudé BOT si besoin
 $Comp
 L Device:R R52S1
 U 1 1 62870F09
@@ -1415,4 +1413,6 @@ Wire Notes Line
 	3395 3755 3395 6480
 Wire Notes Line
 	7595 3755 7595 6480
+Text Notes 2720 940  0    197  Italic 39
+CONDUCTIVIMÈTRE NGL
 $EndSCHEMATC

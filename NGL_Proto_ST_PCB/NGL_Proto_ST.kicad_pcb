@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.10)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -22,7 +22,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -447,7 +447,7 @@
       (net 18 -BATT))
     (pad S thru_hole rect (at 0 -5.08 270) (size 1.478 1.478) (drill 0.97) (layers *.Cu *.Mask)
       (net 33 IN_COAX))
-    (model C:/Users/b.giraud-missier.WKS-TH-BE-03/Desktop/NGL_Proto_EURO/Lib_NGL_Proto/5227161-2.step
+    (model ${LIBNGLST/5227161-2.step
       (offset (xyz 0 28.5 8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
@@ -717,7 +717,7 @@
     (pad 3 thru_hole circle (at -6.500001 0 180) (size 1.4986 1.4986) (drill 0.9906) (layers *.Cu *.Mask))
     (pad 1 thru_hole rect (at -6.500001 4.500001 180) (size 1.4986 1.4986) (drill 0.9906) (layers *.Cu *.Mask)
       (net 18 -BATT))
-    (model C:/Users/b.giraud-missier.WKS-TH-BE-03/Desktop/NGL_Proto_EURO/Lib_NGL_Proto/c-3-1825910-5-c-3d.stp
+    (model ${LIBNGLST/c-3-1825910-5-c-3d.stp
       (offset (xyz -3 2.5 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -843,7 +843,7 @@
     (pad 3 thru_hole circle (at -6.500001 0 180) (size 1.4986 1.4986) (drill 0.9906) (layers *.Cu *.Mask))
     (pad 1 thru_hole rect (at -6.500001 4.500001 180) (size 1.4986 1.4986) (drill 0.9906) (layers *.Cu *.Mask)
       (net 46 "Net-(SW4-Pad1)"))
-    (model C:/Users/b.giraud-missier.WKS-TH-BE-03/Desktop/NGL_Proto_EURO/Lib_NGL_Proto/c-3-1825910-5-c-3d.stp
+    (model ${LIBNGLST/c-3-1825910-5-c-3d.stp
       (offset (xyz -3 2.5 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -884,7 +884,7 @@
       (net 18 -BATT))
     (pad P thru_hole circle (at 36.11 0 180) (size 1.98 1.98) (drill 1.32) (layers *.Cu *.Mask)
       (net 80 "Net-(BT1-PadP)"))
-    (model C:/Users/b.giraud-missier.WKS-TH-BE-03/Desktop/NGL_Proto_EURO/Lib_NGL_Proto/1043.step
+    (model ${LIBNGLST/1043.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -920,7 +920,7 @@
       (net 80 "Net-(BT1-PadP)"))
     (pad 1 thru_hole rect (at 0 4.7) (size 2.45 2.45) (drill 1.85) (layers *.Cu *.Mask)
       (net 17 +BATT))
-    (model C:/Users/b.giraud-missier.WKS-TH-BE-03/Desktop/NGL_Proto_EURO/Lib_NGL_Proto/1101M2S3CQE2.step
+    (model ${LIBNGLST/1101M2S3CQE2.step
       (offset (xyz 0 0 -1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

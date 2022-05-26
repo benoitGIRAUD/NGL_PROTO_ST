@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
-Title "NGL_Proto"
-Date "2022-05-02"
-Rev "V1"
+Sheet 2 6
+Title "NGL_Proto_V2"
+Date "2022-05-27"
+Rev "V2"
 Comp "ADTP"
-Comment1 "Usinage by LPKF"
-Comment2 ""
-Comment3 ""
+Comment1 "Auteur: Benoît"
+Comment2 "Proto avec potar numérique + intégration"
+Comment3 "Sous traité chez JLCPCB"
 Comment4 ""
 $EndDescr
 $Comp
@@ -30,7 +30,7 @@ F 8 "ESP32-WROOM-32D-N16" H 5570 3340 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9550 5195 1450 1125
+S 9540 5175 1450 1125
 U 62744FDF
 F0 "Alim" 50
 F1 "Alim.sch" 50
@@ -209,12 +209,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Male J6
 U 1 1 62749F36
-P 10630 1470
-F 0 "J6" H 10738 1751 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 10738 1660 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10630 1470 50  0001 C CNN
-F 3 "~" H 10630 1470 50  0001 C CNN
-	1    10630 1470
+P 10670 1920
+F 0 "J6" H 10778 2201 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10778 2110 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10670 1920 50  0001 C CNN
+F 3 "~" H 10670 1920 50  0001 C CNN
+	1    10670 1920
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -231,17 +231,17 @@ $EndComp
 $Comp
 L power:GND #PWR048
 U 1 1 6274CE22
-P 10120 1650
-F 0 "#PWR048" H 10120 1400 50  0001 C CNN
-F 1 "GND" H 10125 1477 50  0000 C CNN
-F 2 "" H 10120 1650 50  0001 C CNN
-F 3 "" H 10120 1650 50  0001 C CNN
-	1    10120 1650
+P 10160 2100
+F 0 "#PWR048" H 10160 1850 50  0001 C CNN
+F 1 "GND" H 10165 1927 50  0000 C CNN
+F 2 "" H 10160 2100 50  0001 C CNN
+F 3 "" H 10160 2100 50  0001 C CNN
+	1    10160 2100
 	1    0    0    -1  
 $EndComp
 Text GLabel 6970 3940 2    50   Input ~ 0
 NEO
-Text GLabel 10200 1470 0    50   Input ~ 0
+Text GLabel 10240 1920 0    50   Input ~ 0
 NEO
 $Comp
 L power:GND #PWR039
@@ -356,11 +356,11 @@ Wire Wire Line
 Wire Wire Line
 	6495 3940 6370 3940
 Wire Wire Line
-	10430 1370 10120 1370
+	10470 1820 10160 1820
 Wire Wire Line
-	10430 1470 10200 1470
+	10470 1920 10240 1920
 Wire Wire Line
-	10430 1570 10120 1570
+	10470 2020 10160 2020
 Wire Wire Line
 	3760 2340 3295 2340
 Wire Wire Line
@@ -388,7 +388,7 @@ Text Notes 9335 4305 0    50   ~ 0
 I²C
 Text Notes 2610 1435 0    79   ~ 16
 μContrôleur ESP32
-Text Notes 9810 910  0    79   ~ 16
+Text Notes 9850 1360 0    79   ~ 16
 Spare NEO PIXEL
 NoConn ~ 6370 2540
 NoConn ~ 6370 2640
@@ -515,7 +515,7 @@ Wire Wire Line
 	6615 3640 6370 3640
 NoConn ~ 4770 3040
 Wire Wire Line
-	10120 1570 10120 1650
+	10160 2020 10160 2100
 Text GLabel 4670 2740 0    50   Input ~ 0
 OUT_BAT
 NoConn ~ 4770 3790
@@ -661,7 +661,7 @@ Wire Wire Line
 	9095 3140 8845 3140
 Wire Wire Line
 	8845 3140 8845 3310
-Text Notes 10170 1065 0    50   ~ 0
+Text Notes 10210 1515 0    50   ~ 0
 +3.3 V plutot ?
 Wire Notes Line
 	9515 5025 9515 1215
@@ -682,16 +682,16 @@ Vf=2.53 V
 $Comp
 L power:+3.3V #PWR0115
 U 1 1 6297253D
-P 10120 1300
-F 0 "#PWR0115" H 10120 1150 50  0001 C CNN
-F 1 "+3.3V" H 10135 1473 50  0000 C CNN
-F 2 "" H 10120 1300 50  0001 C CNN
-F 3 "" H 10120 1300 50  0001 C CNN
-	1    10120 1300
+P 10160 1750
+F 0 "#PWR0115" H 10160 1600 50  0001 C CNN
+F 1 "+3.3V" H 10175 1923 50  0000 C CNN
+F 2 "" H 10160 1750 50  0001 C CNN
+F 3 "" H 10160 1750 50  0001 C CNN
+	1    10160 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10120 1300 10120 1370
+	10160 1750 10160 1820
 Wire Wire Line
 	6795 3940 6970 3940
 Wire Wire Line
@@ -733,4 +733,12 @@ Wire Wire Line
 	9095 4130 9020 4130
 Wire Wire Line
 	9020 4130 9020 4010
+$Sheet
+S 1060 5450 1190 1180
+U 629412F2
+F0 "Potar_Num" 50
+F1 "Potar_Num.sch" 50
+$EndSheet
+Text Notes 4660 880  0    197  Italic 39
+μContrôleur + ADC
 $EndSCHEMATC

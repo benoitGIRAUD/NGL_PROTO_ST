@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
-Title "NGL_Proto"
-Date "2022-05-02"
-Rev "V1"
+Sheet 4 6
+Title "NGL_Proto_V2"
+Date "2022-05-27"
+Rev "V2"
 Comp "ADTP"
-Comment1 "Usinage by LPKF !"
-Comment2 ""
-Comment3 ""
+Comment1 "Auteur: Benoît"
+Comment2 "Proto avec potar numérique + intégration"
+Comment3 "Sous traité chez JLCPCB"
 Comment4 ""
 $EndDescr
 $Comp
@@ -31630,7 +31630,7 @@ Connecteur signal d'entrée COAX + Protection
 Wire Wire Line
 	3015 3935 1790 3935
 $Bitmap
-Pos 7290 1470
+Pos 9880 1690
 Scale 2.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 33 00 00 00 A4 08 02 00 00 00 74 2E 5E 
@@ -32125,7 +32125,7 @@ B6 6F 5F 69 61 E1 A9 A3 47 71 38 9C 52 A9 1C 3D 7A 34 BE 67 37 A0 15 54 80 7A 4A
 9E FF 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 6570 845  0    50   ~ 0
+Text Notes 9160 1065 0    50   ~ 0
 Connecteur Male sur PCB
 Text GLabel 5205 3935 2    50   Output ~ 0
 VIBRATION_P
@@ -32286,4 +32286,6 @@ F 3 "" H 7890 4530 50  0001 C CNN
 	1    7890 4530
 	1    0    0    -1  
 $EndComp
+Text Notes 4200 1220 0    157  Italic 31
+CONNECTEURS D'ENTRÉES
 $EndSCHEMATC

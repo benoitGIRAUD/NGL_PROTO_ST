@@ -1,0 +1,70 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title "NGL_Proto_V2"
+Date "2022-05-27"
+Rev "V2"
+Comp "ADTP"
+Comment1 "Auteur: Benoît"
+Comment2 "Proto avec potar numérique + intégration"
+Comment3 "Sous traité chez JLCPCB"
+Comment4 ""
+$EndDescr
+$Comp
+L max5481eud&plus_T:max5481eud+T U10
+U 1 1 62941B7B
+P 4710 5300
+F 0 "U10" H 5610 3523 60  0000 C CNN
+F 1 "10K" H 5610 3629 60  0000 C CNN
+F 2 "Lib_NGL_ST:max5481eud&plus_T" H 5610 5540 60  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/256/MAX5483-1513459.pdf" H 5610 5581 60  0001 C CNN
+F 4 "MAX5481EUD+" H 5610 3727 50  0000 C CNN "MPN"
+	1    4710 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR015
+U 1 1 62947A80
+P 3550 3620
+F 0 "#PWR015" H 3550 3470 50  0001 C CNN
+F 1 "+3.3V" H 3565 3793 50  0000 C CNN
+F 2 "" H 3550 3620 50  0001 C CNN
+F 3 "" H 3550 3620 50  0001 C CNN
+	1    3550 3620
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 629496F5
+P 3820 6170
+F 0 "#PWR016" H 3820 5920 50  0001 C CNN
+F 1 "GND" H 3825 5997 50  0000 C CNN
+F 2 "" H 3820 6170 50  0001 C CNN
+F 3 "" H 3820 6170 50  0001 C CNN
+	1    3820 6170
+	1    0    0    -1  
+$EndComp
+Text Notes 3720 1810 0    197  Italic 39
+POTENTIOMÈTRE NUMÉRIQUE
+Text Notes 7820 4660 0    50   ~ 0
+10 Bits 1024 Positions\nAlimentation en 3.3V
+$Comp
+L AD5270BRMZ-20-RL7:AD5270BRMZ-20-RL7 U11
+U 1 1 6295B510
+P 6220 4500
+F 0 "U11" H 6220 5170 50  0000 C CNN
+F 1 "AD5270BRMZ-20-RL7" H 6220 5079 50  0000 C CNN
+F 2 "Lib_NGL_ST:SOP50P490X110-10N" H 6220 4500 50  0001 L BNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5270_5271.pdf" H 6220 4500 50  0001 L BNN
+F 4 "Analog Devices" H 6220 4500 50  0001 L BNN "SUPPLIER"
+F 5 "52R8111" H 6220 4500 50  0001 L BNN "OC_NEWARK"
+F 6 "MSOP-10" H 6220 4500 50  0001 L BNN "PACKAGE"
+F 7 "AD5270BRMZ-20-RL7" H 6220 4500 50  0001 L BNN "MPN"
+F 8 "-" H 6220 4500 50  0001 L BNN "OC_FARNELL"
+	1    6220 4500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

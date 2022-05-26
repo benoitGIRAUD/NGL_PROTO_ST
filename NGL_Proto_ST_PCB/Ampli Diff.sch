@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Sheet 6 6
+Title "NGL_Proto_V2"
+Date "2022-05-27"
+Rev "V2"
+Comp "ADTP"
+Comment1 "Auteur: Benoît"
+Comment2 "Proto avec potar numérique + intégration"
+Comment3 "Sous traité chez JLCPCB"
 Comment4 ""
 $EndDescr
 Wire Notes Line
@@ -432,7 +432,7 @@ Wire Wire Line
 	1020 3850 825  3850
 Wire Wire Line
 	825  3850 825  3895
-Text Notes 1500 2000 0    79   ~ 16
+Text Notes 2280 1410 0    197  Italic 39
 Ampli d'instrutumentation + Redressement + Filtrage
 Wire Wire Line
 	1220 6155 1220 6125
