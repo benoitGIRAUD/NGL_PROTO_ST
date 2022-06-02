@@ -33,7 +33,7 @@ F 0 "U1" H 2280 5567 50  0000 C CNN
 F 1 "AD8639" H 2280 5476 50  0000 C CNN
 F 2 "Lib_NGL_Proto:ADA4522-2ARZ" H 2280 5200 50  0001 C CNN
 F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 2280 5200 50  0001 C CNN
-F 4 "AD8639" H 2280 5200 50  0001 C CNN "MPN"
+F 4 "AD8639ARZ" H 2255 4910 50  0000 C CNN "MPN"
 	2    2280 5200
 	1    0    0    -1  
 $EndComp
@@ -1415,4 +1415,8 @@ Wire Notes Line
 	7595 3755 7595 6480
 Text Notes 2720 940  0    197  Italic 39
 CONDUCTIVIMÈTRE NGL
+Text Notes 3835 1755 0    50   ~ 0
+10 k POT
+Text Notes 2875 4410 0    50   ~ 0
+20 k POT
 $EndSCHEMATC

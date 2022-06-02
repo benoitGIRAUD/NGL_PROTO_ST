@@ -20,4 +20,5 @@
   (lib (name max5481eud&plus_T)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/max5481eud&plus_T.lib)(options "")(descr ""))
   (lib (name AD5293BRUZ-20)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/AD5293BRUZ-20.lib)(options "")(descr ""))
   (lib (name AD5270BRMZ-20-RL7)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/AD5270BRMZ-20-RL7.lib)(options "")(descr ""))
+  (lib (name C0720B001F)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/C0720B001F.lib)(options "")(descr ""))
 )
