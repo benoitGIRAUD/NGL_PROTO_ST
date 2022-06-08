@@ -392,9 +392,6 @@ Text Notes 9850 1360 0    79   ~ 16
 Spare NEO PIXEL
 NoConn ~ 6370 2540
 NoConn ~ 6370 2640
-NoConn ~ 6370 3140
-NoConn ~ 6370 3240
-NoConn ~ 6370 3340
 $Comp
 L MCP3426A0-E_SN:MCP3426A0-E_SN U9
 U 1 1 627BD679
@@ -631,10 +628,6 @@ Text GLabel 6615 2840 2    50   Output ~ 0
 MOSI
 Text GLabel 6615 2940 2    50   BiDi ~ 0
 CLK
-Text GLabel 6615 3040 2    50   Output ~ 0
-CS
-Wire Wire Line
-	6615 3040 6370 3040
 Wire Wire Line
 	6615 2940 6370 2940
 Wire Wire Line
@@ -741,4 +734,16 @@ F1 "Potar_Num.sch" 50
 $EndSheet
 Text Notes 4660 880  0    197  Italic 39
 μContrôleur + ADC
+Text GLabel 6615 3140 2    50   Output ~ 0
+CS_R10
+Text GLabel 6615 3240 2    50   Output ~ 0
+CS_R2
+Wire Wire Line
+	6615 3140 6370 3140
+Wire Wire Line
+	6615 3240 6370 3240
+Text GLabel 6615 3340 2    50   Output ~ 0
+MOTEUR
+Wire Wire Line
+	6615 3340 6370 3340
 $EndSCHEMATC

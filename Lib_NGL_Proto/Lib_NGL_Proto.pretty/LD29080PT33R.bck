@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LF33CDT-TR
+#
+DEF LF33CDT-TR U 0 40 Y Y 1 L N
+F0 "U" -181 291 50 H V L BNN
+F1 "LF33CDT-TR" -238 -599 50 H V L BNN
+F2 "TO228P972X240-3N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "2253503" 0 0 50 H I L BNN "OC_FARNELL"
+F5 "STMicroelectronics" 0 0 50 H I L BNN "SUPPLIER"
+F6 "LF33CDT-TR" 0 0 50 H I L BNN "MPN"
+F7 "DPAK" 0 0 50 H I L BNN "PACKAGE"
+F8 "26M0226" 0 0 50 H I L BNN "OC_NEWARK"
+DRAW
+S -500 -200 500 200 0 0 16 f
+X INPUT 1 -700 0 200 R 40 40 0 0 I 
+X OUT 3 700 0 200 L 40 40 0 0 O 
+X GND 2 0 -400 200 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
