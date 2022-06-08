@@ -746,4 +746,5 @@ Text GLabel 6615 3340 2    50   Output ~ 0
 MOTEUR
 Wire Wire Line
 	6615 3340 6370 3340
+NoConn ~ 6370 3040
 $EndSCHEMATC

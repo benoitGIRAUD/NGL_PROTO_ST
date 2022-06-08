@@ -61,7 +61,7 @@ Text GLabel 6680 4425 0    50   Input ~ 0
 MOSI
 Text Notes 5260 5230 0    50   ~ 0
 Entrée RES
-Text GLabel 4890 4800 2    50   BiDi ~ 0
+Text GLabel 4890 4600 2    50   BiDi ~ 0
 R2_IN
 Text GLabel 4890 4700 2    50   Output ~ 0
 R2_OUT
@@ -89,12 +89,6 @@ Wire Wire Line
 	4980 5200 4710 5200
 Wire Wire Line
 	4710 5100 4975 5100
-Wire Wire Line
-	4890 4800 4710 4800
-Wire Wire Line
-	4890 4700 4710 4700
-Text Notes 4435 4460 0    50   ~ 0
-Voir montage
 $Comp
 L power:+3.3V #PWR040
 U 1 1 629B80B0
@@ -189,4 +183,34 @@ Wire Wire Line
 Connection ~ 4900 4100
 Wire Wire Line
 	4900 4100 4900 4150
+$Comp
+L Device:R R39
+U 1 1 62A152EA
+P 4885 4905
+F 0 "R39" V 4925 5085 50  0000 C CNN
+F 1 "0R" V 4769 4905 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4815 4905 50  0001 C CNN
+F 3 "~" H 4885 4905 50  0001 C CNN
+	1    4885 4905
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4890 4700 4800 4700
+Wire Wire Line
+	4890 4600 4710 4600
+Wire Wire Line
+	4735 4905 4735 4800
+Wire Wire Line
+	4735 4800 4710 4800
+Wire Wire Line
+	5035 4905 5070 4905
+Wire Wire Line
+	5070 4905 5070 4820
+Wire Wire Line
+	5070 4820 4800 4820
+Wire Wire Line
+	4800 4820 4800 4700
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 4700 4710 4700
 $EndSCHEMATC

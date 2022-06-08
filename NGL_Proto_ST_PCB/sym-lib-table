@@ -23,4 +23,5 @@
   (lib (name C0720B001F)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/C0720B001F.lib)(options "")(descr ""))
   (lib (name RU1C002UNTCL)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/RU1C002UNTCL.lib)(options "")(descr ""))
   (lib (name LD29080PT33R)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/LD29080PT33R.lib)(options "")(descr ""))
+  (lib (name MAX1680ESA_T)(type Legacy)(uri ${LIBNGLST}/Lib_NGL_Proto.pretty/MAX1680ESA_T.lib)(options "")(descr ""))
 )

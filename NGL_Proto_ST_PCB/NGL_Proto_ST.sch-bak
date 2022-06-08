@@ -86,12 +86,12 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 62713235
-P 2855 1920
-F 0 "R2" H 2925 1966 50  0000 L CNN
-F 1 "442R" H 2925 1875 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2785 1920 50  0001 C CNN
-F 3 "~" H 2855 1920 50  0001 C CNN
-	1    2855 1920
+P 2505 2000
+F 0 "R2" H 2575 2046 50  0000 L CNN
+F 1 "442R" H 2575 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2435 2000 50  0001 C CNN
+F 3 "~" H 2505 2000 50  0001 C CNN
+	1    2505 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -459,31 +459,18 @@ VIBRATION_P
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 62AAA978
-P 1220 4610
+P 1250 4600
 AR Path="/6271F3E2/62744FDF/6271D84F/62AAA978" Ref="JP?"  Part="1" 
 AR Path="/62AAA978" Ref="JP8"  Part="1" 
-F 0 "JP8" H 1225 4715 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 1220 4731 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1220 4610 50  0001 C CNN
-F 3 "~" H 1220 4610 50  0001 C CNN
-	1    1220 4610
+F 0 "JP8" H 1255 4705 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 1250 4721 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 4600 50  0001 C CNN
+F 3 "~" H 1250 4600 50  0001 C CNN
+	1    1250 4600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1120 4610 1100 4610
-Wire Wire Line
-	1100 4610 1100 5300
-Wire Wire Line
 	1365 3805 1365 3760
-Wire Wire Line
-	1365 4005 1365 4610
-Wire Wire Line
-	1365 4610 1320 4610
-Connection ~ 1100 4610
-Wire Wire Line
-	1095 1920 1095 2655
-Wire Wire Line
-	1095 1920 2455 1920
 Wire Wire Line
 	1095 2920 1135 2920
 Connection ~ 1095 2920
@@ -520,8 +507,6 @@ Wire Wire Line
 	1100 4080 1100 4475
 Connection ~ 1100 4475
 Wire Wire Line
-	1100 4475 1100 4610
-Wire Wire Line
 	1335 2920 1370 2920
 Wire Wire Line
 	1370 2920 1370 3490
@@ -531,32 +516,6 @@ Connection ~ 1370 2920
 Wire Wire Line
 	1370 2920 2920 2920
 Connection ~ 1095 3490
-$Comp
-L Device:Jumper_NC_Small JP?
-U 1 1 628E50CD
-P 3625 2360
-AR Path="/6271F3E2/62744FDF/6271D84F/628E50CD" Ref="JP?"  Part="1" 
-AR Path="/628E50CD" Ref="JP11"  Part="1" 
-F 0 "JP11" H 3625 2270 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 3625 2481 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3625 2360 50  0001 C CNN
-F 3 "~" H 3625 2360 50  0001 C CNN
-	1    3625 2360
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Jumper_NC_Small JP?
-U 1 1 62903774
-P 2730 5000
-AR Path="/6271F3E2/62744FDF/6271D84F/62903774" Ref="JP?"  Part="1" 
-AR Path="/62903774" Ref="JP3"  Part="1" 
-F 0 "JP3" H 2730 4910 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 2730 5121 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2730 5000 50  0001 C CNN
-F 3 "~" H 2730 5000 50  0001 C CNN
-	1    2730 5000
-	0    -1   -1   0   
-$EndComp
 Text Notes 3945 2030 0    50   ~ 0
 Mesure R2\nJP4 JP10 JP11 Open
 Text Notes 2500 5460 0    50   ~ 0
@@ -565,7 +524,7 @@ Wire Wire Line
 	1100 6000 1100 5830
 Text Notes 5480 7675 0    50   ~ 10
 Découplage AOP 2
-Text Notes 1280 1660 0    50   ~ 10
+Text Notes 1115 675  0    50   ~ 10
 Découplage AOP 1\n
 Text Notes 4845 1765 0    79   ~ 16
 Conditionnement Clock en -3.3V +3.3V 
@@ -1160,7 +1119,6 @@ F 3 "~" H 1075 2655 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1095 2655 875  2655
-Connection ~ 1095 2655
 Wire Wire Line
 	1095 2655 1095 2920
 Wire Wire Line
@@ -1246,58 +1204,13 @@ Connection ~ 4705 7155
 Wire Wire Line
 	4705 7155 4705 7200
 Text Notes 2975 1500 0    39   ~ 0
-Potar en résistance variable:\nentre (3) et Curseur (2)\n+relie (1) sur Curseur pour éviter une pin flottantes\n
-$Comp
-L Device:R_POT R2_POT1
-U 1 1 627579CA
-P 3625 1920
-F 0 "R2_POT1" H 3560 1920 50  0000 R CNN
-F 1 "R2_POT" H 3556 1875 50  0001 R CNN
-F 2 "Lib_NGL_Proto:3224X-1-502E" H 3625 1920 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/54/3224-776900.pdf" H 3625 1920 50  0001 C CNN
-F 4 "3224X-1-103E" H 3625 1920 50  0001 C CNN "MPN"
-	1    3625 1920
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3520 2820 3625 2820
-Wire Wire Line
-	3625 2460 3625 2820
-Connection ~ 3625 2820
-Wire Wire Line
-	3625 2820 3775 2820
+Potar Num en résistance variable:\nPossibilité de C.C si pas de code\nou de C.C le curseur\n
 Wire Wire Line
 	2580 5200 2730 5200
-Wire Wire Line
-	2730 5100 2730 5200
 Connection ~ 2730 5200
 Wire Wire Line
 	2730 5200 3190 5200
-Wire Wire Line
-	2880 4610 2930 4610
-Wire Wire Line
-	2930 4610 2930 4825
-Wire Wire Line
-	2930 4825 2730 4825
-Wire Wire Line
-	2730 4760 2730 4825
-Connection ~ 2730 4825
-Wire Wire Line
-	2730 4825 2730 4900
-Wire Wire Line
-	3005 1920 3100 1920
-Wire Wire Line
-	3625 2260 3625 2150
-Wire Wire Line
-	3775 1920 3805 1920
-Wire Wire Line
-	3805 1920 3805 2150
-Wire Wire Line
-	3805 2150 3625 2150
-Connection ~ 3625 2150
-Wire Wire Line
-	3625 2150 3625 2070
-Text Label 2550 1920 0    50   ~ 0
+Text Label 2200 2000 0    50   ~ 0
 R2
 $Comp
 L Device:R R52S1
@@ -1310,72 +1223,52 @@ F 3 "~" H 7295 4205 50  0001 C CNN
 	1    7295 4205
 	0    -1   -1   0   
 $EndComp
-Text Notes 2690 2155 0    50   ~ 0
-332 ohm plutot\nReq= 306 Ohm
 $Comp
 L Device:R R2P1
 U 1 1 62871356
-P 2850 1610
-F 0 "R2P1" H 2920 1656 50  0000 L CNN
-F 1 "1K" H 2920 1565 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 1610 50  0001 C CNN
-F 3 "~" H 2850 1610 50  0001 C CNN
-	1    2850 1610
+P 2500 1690
+F 0 "R2P1" H 2570 1736 50  0000 L CNN
+F 1 "1K" H 2570 1645 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 1690 50  0001 C CNN
+F 3 "~" H 2500 1690 50  0001 C CNN
+	1    2500 1690
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_POT R10_POT1
-U 1 1 6275A1FB
-P 2730 4610
-F 0 "R10_POT1" H 2665 4610 50  0000 R CNN
-F 1 "R2_POT" H 2661 4565 50  0001 R CNN
-F 2 "Lib_NGL_Proto:3224X-1-502E" H 2730 4610 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/54/3224-776900.pdf" H 2730 4610 50  0001 C CNN
-F 4 "3224X-1-103E" H 2730 4610 50  0001 C CNN "MPN"
-	1    2730 4610
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R10P1
 U 1 1 62870C4B
-P 2280 4325
-F 0 "R10P1" H 2350 4371 50  0000 L CNN
-F 1 "590" H 2350 4280 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2210 4325 50  0001 C CNN
-F 3 "~" H 2280 4325 50  0001 C CNN
-	1    2280 4325
+P 1775 4315
+F 0 "R10P1" H 1845 4361 50  0000 L CNN
+F 1 "590" H 1845 4270 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1705 4315 50  0001 C CNN
+F 3 "~" H 1775 4315 50  0001 C CNN
+	1    1775 4315
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 62710FED
-P 2280 4610
-F 0 "R10" H 2350 4656 50  0000 L CNN
-F 1 "590" H 2350 4565 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2210 4610 50  0001 C CNN
-F 3 "~" H 2280 4610 50  0001 C CNN
-	1    2280 4610
+P 1775 4600
+F 0 "R10" H 1845 4646 50  0000 L CNN
+F 1 "590" H 1845 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1705 4600 50  0001 C CNN
+F 3 "~" H 1775 4600 50  0001 C CNN
+	1    1775 4600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2580 4610 2500 4610
+	1625 4600 1570 4600
 Wire Wire Line
-	2130 4610 2075 4610
-Connection ~ 1365 4610
+	1995 4600 1995 4315
 Wire Wire Line
-	2500 4610 2500 4325
+	1995 4315 1925 4315
+Connection ~ 1995 4600
 Wire Wire Line
-	2500 4325 2430 4325
-Connection ~ 2500 4610
+	1995 4600 1925 4600
 Wire Wire Line
-	2500 4610 2430 4610
+	1625 4315 1570 4315
 Wire Wire Line
-	2130 4325 2075 4325
-Wire Wire Line
-	2075 4325 2075 4610
-Connection ~ 2075 4610
-Wire Wire Line
-	2075 4610 1365 4610
+	1570 4315 1570 4600
 Wire Wire Line
 	7500 4205 7445 4205
 Wire Wire Line
@@ -1386,19 +1279,15 @@ Connection ~ 6710 4205
 Text Notes 7710 4205 0    50   ~ 0
 pour 80k\n
 Wire Wire Line
-	2700 1610 2455 1610
+	2350 1690 2105 1690
 Wire Wire Line
-	2455 1610 2455 1920
-Connection ~ 2455 1920
+	2105 1690 2105 2000
 Wire Wire Line
-	2455 1920 2705 1920
+	2105 2000 2355 2000
 Wire Wire Line
-	3000 1610 3100 1610
+	2650 1690 2750 1690
 Wire Wire Line
-	3100 1610 3100 1920
-Connection ~ 3100 1920
-Wire Wire Line
-	3100 1920 3475 1920
+	2750 1690 2750 2000
 Wire Notes Line
 	7595 3755 3395 3755
 Wire Notes Line
@@ -1419,4 +1308,99 @@ Wire Wire Line
 	5500 2300 5500 2220
 Wire Wire Line
 	5500 2220 5690 2220
+Wire Wire Line
+	3625 2820 3775 2820
+Wire Wire Line
+	3520 2820 3625 2820
+Connection ~ 3625 2820
+Text GLabel 2950 1950 1    50   Input ~ 0
+R2_IN
+Text GLabel 3300 1950 1    50   Input ~ 0
+R2_OUT
+Text GLabel 2600 4500 1    50   Input ~ 0
+R10_OUT
+Text GLabel 2250 4500 1    50   Input ~ 0
+R2_IN
+Wire Wire Line
+	1095 2655 1095 2000
+Wire Wire Line
+	1095 2000 2105 2000
+Connection ~ 1095 2655
+Connection ~ 2105 2000
+Wire Wire Line
+	3625 2000 3625 2820
+Wire Wire Line
+	2730 4600 2730 5200
+$Comp
+L Jumper:SolderJumper_2_Bridged SB?
+U 1 1 62AF3309
+P 2425 4600
+F 0 "SB?" H 2425 4713 50  0000 C CNN
+F 1 "SB" H 2425 4714 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2425 4600 50  0001 C CNN
+F 3 "~" H 2425 4600 50  0001 C CNN
+	1    2425 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2730 4600 2600 4600
+Wire Wire Line
+	1995 4600 2250 4600
+Wire Wire Line
+	2250 4500 2250 4600
+Connection ~ 2250 4600
+Wire Wire Line
+	2250 4600 2275 4600
+Wire Wire Line
+	2600 4500 2600 4600
+Connection ~ 2600 4600
+Wire Wire Line
+	2600 4600 2575 4600
+$Comp
+L Jumper:SolderJumper_2_Bridged SB?
+U 1 1 62B42FC1
+P 3125 2000
+F 0 "SB?" H 3125 2113 50  0000 C CNN
+F 1 "SB" H 3125 2114 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3125 2000 50  0001 C CNN
+F 3 "~" H 3125 2000 50  0001 C CNN
+	1    3125 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 2000 3300 2000
+Wire Wire Line
+	3300 1950 3300 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	3300 2000 3275 2000
+Wire Wire Line
+	2655 2000 2750 2000
+Connection ~ 2750 2000
+Wire Wire Line
+	2750 2000 2950 2000
+Wire Wire Line
+	2950 1950 2950 2000
+Connection ~ 2950 2000
+Wire Wire Line
+	2950 2000 2975 2000
+Wire Wire Line
+	1100 4475 1100 4600
+Wire Wire Line
+	1150 4600 1100 4600
+Connection ~ 1100 4600
+Wire Wire Line
+	1100 4600 1100 5300
+Wire Wire Line
+	1350 4600 1365 4600
+Connection ~ 1570 4600
+Wire Wire Line
+	1365 4005 1365 4600
+Connection ~ 1365 4600
+Wire Wire Line
+	1365 4600 1570 4600
+Text Notes 1970 2230 0    39   ~ 0
+Empreinte // : pour ajuster
+Text Notes 1430 4765 0    39   ~ 0
+Empreinte // : pour ajuster
 $EndSCHEMATC
