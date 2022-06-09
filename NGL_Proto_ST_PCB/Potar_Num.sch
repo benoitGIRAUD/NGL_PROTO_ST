@@ -9,8 +9,8 @@ Date "2022-06-09"
 Rev "V1.1"
 Comp "ADTP"
 Comment1 "Auteur: Benoît"
-Comment2 "Proto avec potar numérique + intégration"
-Comment3 "Sous traité chez EUROCIRCUIT"
+Comment2 "Proto Sous-Traité avec potar numérique + intégration"
+Comment3 "Sous traité chez EURO CIRCUIT"
 Comment4 ""
 $EndDescr
 $Comp
