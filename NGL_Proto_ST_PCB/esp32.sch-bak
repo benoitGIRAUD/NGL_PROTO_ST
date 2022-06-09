@@ -9,8 +9,8 @@ Date "2022-06-09"
 Rev "V1.1"
 Comp "ADTP"
 Comment1 "Auteur: Benoît"
-Comment2 "Proto avec potar numérique + intégration"
-Comment3 "Sous traité chez JLCPCB"
+Comment2 "Proto Sous-Traité avec potar numérique + intégration"
+Comment3 "Sous traité chez EURO CIRCUIT"
 Comment4 ""
 $EndDescr
 $Comp
@@ -730,4 +730,6 @@ Wire Wire Line
 	6620 3740 6370 3740
 Text Notes 6875 3775 0    50   ~ 0
 Entrée ENABLE pooling
+Text Notes 1450 3535 0    50   ~ 0
+Déporter programmeur
 $EndSCHEMATC

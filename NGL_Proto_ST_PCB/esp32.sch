@@ -730,4 +730,6 @@ Wire Wire Line
 	6620 3740 6370 3740
 Text Notes 6875 3775 0    50   ~ 0
 Entrée ENABLE pooling
+Text Notes 1450 3535 0    50   ~ 0
+Déporter programmeur
 $EndSCHEMATC

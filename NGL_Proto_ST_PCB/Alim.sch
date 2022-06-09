@@ -31,7 +31,7 @@ L Connector:TestPoint TPP2
 U 1 1 62710BD9
 P 3330 5910
 F 0 "TPP2" H 3335 6125 50  0000 C CNN
-F 1 "TestPointPad" V 3434 5982 50  0001 C CNN
+F 1 "+BATT" H 3330 6225 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 3530 5910 50  0001 C CNN
 F 3 "~" H 3530 5910 50  0001 C CNN
 	1    3330 5910
@@ -42,7 +42,7 @@ L Connector:TestPoint TPP4
 U 1 1 627111ED
 P 4480 5910
 F 0 "TPP4" V 4434 6098 50  0000 L CNN
-F 1 "TestPointPad" V 4525 6098 50  0000 L CNN
+F 1 "GND" V 4525 6098 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 4680 5910 50  0001 C CNN
 F 3 "~" H 4680 5910 50  0001 C CNN
 	1    4480 5910
@@ -166,7 +166,7 @@ L Connector:TestPoint TP8
 U 1 1 62775941
 P 8770 2780
 F 0 "TP8" V 8645 2825 50  0000 L CNN
-F 1 "TestPoint" V 8850 2690 50  0000 L CNN
+F 1 "-3.3V" V 8850 2690 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8970 2780 50  0001 C CNN
 F 3 "~" H 8970 2780 50  0001 C CNN
 	1    8770 2780
@@ -264,7 +264,7 @@ L Connector:TestPoint TP7
 U 1 1 62774F76
 P 4305 3460
 F 0 "TP7" V 4355 3355 50  0000 L CNN
-F 1 "TestPoint" V 4380 3495 50  0000 L CNN
+F 1 "+3.3V" V 4240 3345 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4505 3460 50  0001 C CNN
 F 3 "~" H 4505 3460 50  0001 C CNN
 	1    4305 3460
@@ -1766,4 +1766,70 @@ F 3 "" H 5850 2585 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 2980 5850 2585
+$Comp
+L Connector:TestPoint TP9
+U 1 1 62B32426
+P 4700 5915
+F 0 "TP9" V 4654 6103 50  0000 L CNN
+F 1 "GND" V 4745 6103 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4900 5915 50  0001 C CNN
+F 3 "~" H 4900 5915 50  0001 C CNN
+	1    4700 5915
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 62B329F4
+P 4900 5915
+F 0 "TP10" V 4854 6103 50  0000 L CNN
+F 1 "GND" V 4945 6103 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5100 5915 50  0001 C CNN
+F 3 "~" H 5100 5915 50  0001 C CNN
+	1    4900 5915
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 62B3337F
+P 5090 5915
+F 0 "TP13" V 5044 6103 50  0000 L CNN
+F 1 "GND" V 5135 6103 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5290 5915 50  0001 C CNN
+F 3 "~" H 5290 5915 50  0001 C CNN
+	1    5090 5915
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 62B336FA
+P 5265 5915
+F 0 "TP14" V 5219 6103 50  0000 L CNN
+F 1 "GND" V 5310 6103 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5465 5915 50  0001 C CNN
+F 3 "~" H 5465 5915 50  0001 C CNN
+	1    5265 5915
+	-1   0    0    1   
+$EndComp
+Text Notes 4405 6810 0    50   ~ 0
+Picots de GND + 1 Pad
+Wire Wire Line
+	4700 5915 4700 5705
+Connection ~ 4480 5705
+Wire Wire Line
+	4900 5915 4900 5705
+Wire Wire Line
+	4480 5705 4700 5705
+Connection ~ 4700 5705
+Wire Wire Line
+	4700 5705 4900 5705
+Wire Wire Line
+	5090 5915 5090 5705
+Connection ~ 4900 5705
+Wire Wire Line
+	5265 5915 5265 5705
+Wire Wire Line
+	4900 5705 5090 5705
+Connection ~ 5090 5705
+Wire Wire Line
+	5090 5705 5265 5705
 $EndSCHEMATC
