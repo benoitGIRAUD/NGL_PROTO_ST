@@ -1,0 +1,90 @@
+
+(rules PCB NGL_Proto_ST
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 4110)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 150.0)
+    (clear 150.2)
+    (clear 75.0 (type smd_to_turn_gap))
+    (clear 37.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:350_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:350_um" "Via[0-1]_600:350_um" default
+  )
+  (via 
+    "Via[0-1]_600:350_um-kicad_default" "Via[0-1]_600:350_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:350_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:350_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+      (length -1.0 0.2)
+    )
+  )
+  (class "kicad_default"
+    "-BATT" +3V3 "Net-(C9-Pad1)" "Net-(R4-Pad2)" "Net-(U4-Pad7)" "Net-(U4-Pad8)" "Net-(U4-Pad12)" "Net-(U4-Pad17)"
+    "Net-(U4-Pad26)" "Net-(U4-Pad29)" "Net-(U4-Pad32)" +BATT "Net-(D1-Pad2)" "OUT_SENS" "Net-(C16-Pad2)" "Net-(C16-Pad1)"
+    "Net-(R15-Pad1)" "Net-(C8-Pad1)" "OUT_NTC" "Net-(D6-Pad1)" "Net-(D11-Pad1)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(J1-Pad7)"
+    "Net-(J2-Pad2)" "Net-(J2-Pad3)" "IN_COAX" NEO "Net-(JP3-Pad1)" "Net-(JP3-Pad2)" "Net-(JP8-Pad1)" "Net-(JP11-Pad2)"
+    "Net-(JP11-Pad1)" "Net-(R25-Pad2)" "Net-(R13-Pad1)" "Net-(R20-Pad2)" "Net-(R21-Pad2)" "Net-(R22-Pad2)" "Net-(R24-Pad1)" "Net-(SW4-Pad1)"
+    "Net-(C20-Pad1)" "Net-(C21-Pad1)" "Net-(D2-Pad2)" "Net-(D2-Pad1)" "Net-(D3-Pad2)" "CURRENT_3" DIFF+ "DIFF-"
+    "CURRENT_4" "OUT_DIFF" "Net-(POT1-Pad1)" "Net-(POT1-Pad3)" "Net-(R26-Pad1)" "Net-(R28-Pad2)" "Net-(R30-Pad1)" "Net-(R31-Pad2)"
+    "-3V3" SDA SCL "OUT_BAT" "CLOCK_GEN" "Net-(U4-Pad6)" "Net-(U4-Pad18)" "Net-(U4-Pad19)"
+    "Net-(U4-Pad20)" "Net-(U4-Pad21)" "Net-(U4-Pad22)" "Net-(SB1-Pad2)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(R34-Pad1)" "Net-(U3-Pad8)"
+    "Net-(S1-Pad3)" "UART_RX" "UART_TX" MISO MOSI CLK "Net-(U4-Pad9)" /ESP32/EN
+    /R2 "/Ampli Diff/620" "Net-(R52S1-Pad2)" "Net-(C30-Pad1)" "Net-(M1-Pad2)" MOTEUR "R2_OUT" "Net-(R39-Pad2)"
+    "CS_R2" "CS_R10" "Net-(U4-Pad23)" "Net-(U5-Pad5)" "Net-(U10-Pad7)" "Net-(U10-Pad8)" "Net-(U10-Pad9)" "R2_IN"
+    "Net-(U10-Pad13)" "R10_IN" "R10_OUT" "Net-(U11-Pad7)" INH
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+      (length -1.0 0.2)
+    )
+  )
+)
