@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title "NGL_Proto_V2"
-Date "2022-05-27"
-Rev "V2"
+Title "NGL_Proto_ST"
+Date "2022-06-09"
+Rev "V1.1"
 Comp "ADTP"
 Comment1 "Auteur: Benoît"
 Comment2 "Proto avec potar numérique + intégration"
@@ -63,7 +63,7 @@ U 1 1 627D0C44
 P 6645 4240
 F 0 "R15" V 6545 4235 50  0000 C CNN
 F 1 "43R" V 6730 4240 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6575 4240 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6575 4240 50  0001 C CNN
 F 3 "~" H 6645 4240 50  0001 C CNN
 	1    6645 4240
 	0    -1   -1   0   
@@ -113,7 +113,7 @@ U 1 1 62732F81
 P 3760 2130
 F 0 "R17" H 3830 2176 50  0000 L CNN
 F 1 "4.7K" H 3830 2085 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3690 2130 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3690 2130 50  0001 C CNN
 F 3 "~" H 3760 2130 50  0001 C CNN
 	1    3760 2130
 	1    0    0    -1  
@@ -135,7 +135,7 @@ U 1 1 627346B3
 P 7635 2440
 F 0 "R21" V 7735 2515 50  0000 L CNN
 F 1 "4.7K" V 7730 2250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7565 2440 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7565 2440 50  0001 C CNN
 F 3 "~" H 7635 2440 50  0001 C CNN
 	1    7635 2440
 	0    1    1    0   
@@ -174,28 +174,6 @@ F 3 "~" H 2620 3535 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R18
-U 1 1 627449C1
-P 3070 3435
-F 0 "R18" H 2895 3480 50  0000 L CNN
-F 1 "4.7K" H 2850 3390 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3000 3435 50  0001 C CNN
-F 3 "~" H 3070 3435 50  0001 C CNN
-	1    3070 3435
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 62746645
-P 3070 3535
-F 0 "R19" H 3130 3590 50  0000 L CNN
-F 1 "4.7K" H 3125 3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3000 3535 50  0001 C CNN
-F 3 "~" H 3070 3535 50  0001 C CNN
-	1    3070 3535
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+3.3V #PWR025
 U 1 1 62747B61
 P 3760 1885
@@ -223,7 +201,7 @@ U 1 1 6274A73C
 P 6645 3940
 F 0 "R20" V 6565 3900 50  0000 L CNN
 F 1 "4.7K" V 6730 3870 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6575 3940 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6575 3940 50  0001 C CNN
 F 3 "~" H 6645 3940 50  0001 C CNN
 	1    6645 3940
 	0    1    1    0   
@@ -272,7 +250,7 @@ U 1 1 62751C9B
 P 3295 2630
 F 0 "C19" H 3410 2676 50  0000 L CNN
 F 1 "100nF" H 3410 2585 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3333 2480 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3333 2480 50  0001 C CNN
 F 3 "~" H 3295 2630 50  0001 C CNN
 	1    3295 2630
 	1    0    0    -1  
@@ -288,10 +266,6 @@ Wire Wire Line
 	3760 2340 3760 2280
 Wire Wire Line
 	3760 2860 3760 2805
-Wire Wire Line
-	2920 3535 2820 3535
-Wire Wire Line
-	2920 3435 2820 3435
 Wire Wire Line
 	2820 3335 2870 3335
 Wire Wire Line
@@ -476,7 +450,6 @@ Wire Notes Line
 	6780 7740 6780 5025
 Text Notes 2690 5270 0    79   ~ 16
 ADC 16 Bits _ 15 SPS _ I²C
-NoConn ~ 6370 3740
 NoConn ~ 6370 4040
 NoConn ~ 6370 4140
 Wire Wire Line
@@ -530,7 +503,7 @@ U 1 1 628E9470
 P 6535 6740
 F 0 "C1" H 6265 6795 50  0000 L CNN
 F 1 "100nF" H 6185 6715 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6573 6590 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6573 6590 50  0001 C CNN
 F 3 "~" H 6535 6740 50  0001 C CNN
 	1    6535 6740
 	1    0    0    -1  
@@ -607,10 +580,6 @@ Text GLabel 4665 3540 0    50   Input ~ 0
 UART_RX
 Text GLabel 3285 3435 2    50   Input ~ 0
 UART_RX
-Wire Wire Line
-	3285 3435 3220 3435
-Wire Wire Line
-	3220 3535 3285 3535
 $Comp
 L Connector:Conn_01x06_Male J4
 U 1 1 6273629E
@@ -647,7 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	9095 2940 8890 2940
 Text GLabel 8890 2740 0    50   Output ~ 0
-CS
+CS_R2
 Wire Wire Line
 	9095 3040 8890 3040
 Wire Wire Line
@@ -747,4 +716,18 @@ MOTEUR
 Wire Wire Line
 	6615 3340 6370 3340
 NoConn ~ 6370 3040
+Wire Wire Line
+	2820 3435 3285 3435
+Wire Wire Line
+	2820 3535 3285 3535
+Text Notes 7960 4300 0    50   ~ 0
+*Pull-up Interne
+Text Notes 1555 2340 0    50   ~ 0
+*INT sur petit coté
+Text GLabel 6620 3740 2    50   Input ~ 0
+INH
+Wire Wire Line
+	6620 3740 6370 3740
+Text Notes 6875 3775 0    50   ~ 0
+Entrée ENABLE pooling
 $EndSCHEMATC

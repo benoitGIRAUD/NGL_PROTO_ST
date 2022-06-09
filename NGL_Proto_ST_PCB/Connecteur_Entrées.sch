@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title "NGL_Proto_V2"
-Date "2022-05-27"
-Rev "V2"
+Title "NGL_Proto_ST"
+Date "2022-06-09"
+Rev "V1.1"
 Comp "ADTP"
 Comment1 "Auteur: Benoît"
 Comment2 "Proto avec potar numérique + intégration"
@@ -33,7 +33,7 @@ U 1 1 6271E05B
 P 3165 3935
 F 0 "R3" H 3235 3981 50  0000 L CNN
 F 1 "127K" H 3235 3890 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3095 3935 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3095 3935 50  0001 C CNN
 F 3 "~" H 3165 3935 50  0001 C CNN
 	1    3165 3935
 	0    -1   -1   0   
@@ -44,7 +44,7 @@ U 1 1 6271E8D0
 P 4640 3935
 F 0 "R14" H 4710 3981 50  0000 L CNN
 F 1 "1K" H 4710 3890 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4570 3935 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4570 3935 50  0001 C CNN
 F 3 "~" H 4640 3935 50  0001 C CNN
 	1    4640 3935
 	0    1    1    0   
@@ -32208,7 +32208,7 @@ AR Path="/6271F3E2/62A33894" Ref="C?"  Part="1"
 AR Path="/6271F3E2/62744FDF/6271D84F/62A33894" Ref="C18"  Part="1" 
 F 0 "C18" H 10115 5556 50  0000 L CNN
 F 1 "1nF" H 10115 5465 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10038 5360 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10038 5360 50  0001 C CNN
 F 3 "" H 10000 5510 50  0001 C CNN
 	1    10000 5510
 	1    0    0    -1  
@@ -32221,7 +32221,7 @@ AR Path="/6271F3E2/62A33888" Ref="R?"  Part="1"
 AR Path="/6271F3E2/62744FDF/6271D84F/62A33888" Ref="R11"  Part="1" 
 F 0 "R11" H 9645 5546 50  0000 L CNN
 F 1 "10K" H 9645 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9505 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9505 5500 50  0001 C CNN
 F 3 "~" H 9575 5500 50  0001 C CNN
 	1    9575 5500
 	1    0    0    -1  

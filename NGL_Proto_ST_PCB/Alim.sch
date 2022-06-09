@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title "NGL_Proto_V2"
-Date "2022-05-27"
-Rev "V2"
+Title "NGL_Proto_ST"
+Date "2022-06-09"
+Rev "V1.1"
 Comp "ADTP"
 Comment1 "Auteur: Benoît"
 Comment2 "Proto avec potar numérique + intégration"
@@ -82,7 +82,7 @@ U 1 1 62710E77
 P 6090 3435
 F 0 "C16" H 6205 3481 50  0000 L CNN
 F 1 "4.7uF" H 6205 3390 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6128 3285 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6128 3285 50  0001 C CNN
 F 3 "~" H 6090 3435 50  0001 C CNN
 	1    6090 3435
 	1    0    0    -1  
@@ -93,7 +93,7 @@ U 1 1 62711694
 P 8140 3035
 F 0 "C17" H 8255 3081 50  0000 L CNN
 F 1 "10uF" H 8255 2990 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8178 2885 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8178 2885 50  0001 C CNN
 F 3 "~" H 8140 3035 50  0001 C CNN
 	1    8140 3035
 	1    0    0    -1  
@@ -161,9 +161,6 @@ Wire Wire Line
 	5850 3080 6710 3080
 Wire Wire Line
 	6710 2980 5850 2980
-Wire Wire Line
-	5850 2980 5850 3080
-Connection ~ 5850 3080
 $Comp
 L Connector:TestPoint TP8
 U 1 1 62775941
@@ -175,11 +172,11 @@ F 3 "~" H 8970 2780 50  0001 C CNN
 	1    8770 2780
 	0    1    1    0   
 $EndComp
-Text Notes 1220 2860 0    79   ~ 16
+Text Notes 3880 2880 0    79   ~ 16
 LDO 3.7 V --> 3.3 V
 Text Notes 2340 5315 0    79   ~ 16
 Porte pile 18650 + Pont div Sens
-Text Notes 5740 2405 0    79   ~ 16
+Text Notes 6325 2390 0    79   ~ 16
 Inverseur 125 mA (avant 50 mA)
 Wire Wire Line
 	7910 2680 8595 2680
@@ -209,7 +206,7 @@ AR Path="/6271F3E2/62744FDF/6271D84F/628AB478" Ref="R?"  Part="1"
 AR Path="/6271F3E2/62744FDF/628AB478" Ref="R1"  Part="1" 
 F 0 "R1" H 2200 6081 50  0000 L CNN
 F 1 "300K" H 2200 5990 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2060 6035 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2060 6035 50  0001 C CNN
 F 3 "~" H 2130 6035 50  0001 C CNN
 	1    2130 6035
 	-1   0    0    1   
@@ -222,7 +219,7 @@ AR Path="/6271F3E2/62744FDF/6271D84F/628AC10E" Ref="R?"  Part="1"
 AR Path="/6271F3E2/62744FDF/628AC10E" Ref="R5"  Part="1" 
 F 0 "R5" H 2200 6496 50  0000 L CNN
 F 1 "1M" H 2200 6405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2060 6450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2060 6450 50  0001 C CNN
 F 3 "~" H 2130 6450 50  0001 C CNN
 	1    2130 6450
 	-1   0    0    1   
@@ -307,7 +304,7 @@ U 1 1 6276C25F
 P 2495 3690
 F 0 "C14" H 2610 3736 50  0000 L CNN
 F 1 "100nF" H 2610 3645 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2533 3540 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2533 3540 50  0001 C CNN
 F 3 "~" H 2495 3690 50  0001 C CNN
 	1    2495 3690
 	1    0    0    -1  
@@ -318,7 +315,7 @@ U 1 1 6276B861
 P 4020 3690
 F 0 "C15" H 4135 3736 50  0000 L CNN
 F 1 "10uF" H 4135 3645 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4058 3540 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4058 3540 50  0001 C CNN
 F 3 "~" H 4020 3690 50  0001 C CNN
 	1    4020 3690
 	1    0    0    -1  
@@ -354,17 +351,17 @@ Wire Notes Line
 Wire Notes Line
 	1165 4700 1165 2700
 Text Notes 4610 3210 0    50   ~ 0
-500 mA Max
+800 mA Max
 $Comp
 L 1101M2S3CQE2:1101M2S3CQE2 S1
 U 1 1 62A4F233
-P 3045 5705
-F 0 "S1" H 3095 5927 50  0000 C CNN
-F 1 "1101M2S3CQE2" H 3095 5928 50  0001 C CNN
-F 2 "Lib_NGL_Proto:SW_1101M2S3CQE2" H 3045 5705 50  0001 L BNN
-F 3 "https://docs.rs-online.com/eaa8/0900766b800993da.pdf" H 3045 5705 50  0001 L BNN
-F 4 "CnK" H 3045 5705 50  0001 L BNN "MANUFACTURER"
-	1    3045 5705
+P 1895 2910
+F 0 "S1" H 1945 3132 50  0000 C CNN
+F 1 "1101M2S3CQE2" H 1945 3133 50  0001 C CNN
+F 2 "Lib_NGL_Proto:SW_1101M2S3CQE2" H 1895 2910 50  0001 L BNN
+F 3 "https://docs.rs-online.com/eaa8/0900766b800993da.pdf" H 1895 2910 50  0001 L BNN
+F 4 "CnK" H 1895 2910 50  0001 L BNN "MANUFACTURER"
+	1    1895 2910
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -385,15 +382,6 @@ Wire Wire Line
 	4135 5705 4030 5705
 Wire Wire Line
 	4135 5545 4135 5705
-Wire Wire Line
-	3145 5705 3330 5705
-Wire Wire Line
-	2130 5885 2130 5805
-Wire Wire Line
-	2845 5805 2130 5805
-Connection ~ 2130 5805
-Wire Wire Line
-	2130 5805 2130 5610
 Wire Wire Line
 	1780 5510 1780 5610
 Wire Wire Line
@@ -434,7 +422,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 3460 2400 3250
 Connection ~ 2495 3460
-NoConn ~ 2845 5605
 Text Label 8295 2680 0    50   ~ 0
 +3V3
 Text Notes 3480 1050 0    197  Italic 39
@@ -482,10 +469,10 @@ F 3 "" H 1500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RU1C002UNTCL:RU1C002UNTCL R38
+L RU1C002UNTCL:RU1C002UNTCL T1
 U 1 1 62A199F1
 P 1200 1800
-F 0 "R38" H 1630 1853 60  0000 L CNN
+F 0 "T1" H 1630 1853 60  0000 L CNN
 F 1 "RU1C002UNTCL" H 1630 1747 60  0000 L CNN
 F 2 "Lib_NGL_ST:RU1C002UNTCL" H 1650 1540 60  0001 C CNN
 F 3 "https://www.mouser.fr/datasheet/2/348/ru1c002untcl-e-1873370.pdf" H 1630 1694 60  0001 L CNN
@@ -533,12 +520,8 @@ F 8 "26M0226" H 3260 3460 50  0001 L BNN "OC_NEWARK"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3460 3160
-Text GLabel 3110 3085 1    50   Input ~ 0
-ENABLE
-Text Notes 3250 2940 0    50   ~ 0
-ACTIF HAUT
-Wire Wire Line
-	3110 3160 3110 3085
+Text Notes 2490 2835 0    50   ~ 0
+ACTIF HAUT > 2V
 Wire Wire Line
 	3260 4000 3260 3915
 Wire Wire Line
@@ -567,10 +550,10 @@ REG_EN
 Wire Wire Line
 	2540 6240 2130 6240
 $Comp
-L MAX1680ESA_T:MAX1680ESA+T U?
+L MAX1680ESA_T:MAX1680ESA+T U6
 U 1 1 62BE87B3
 P 7310 3180
-F 0 "U?" H 7310 3947 50  0000 C CNN
+F 0 "U6" H 7310 3947 50  0000 C CNN
 F 1 "MAX1680ESA+T" H 7310 3856 50  0000 C CNN
 F 2 "Lib_NGL_ST:SOIC127P600X175-8N" H 7310 3180 50  0001 L BNN
 F 3 "https://www.mouser.fr/datasheet/2/256/MAX1680-MAX1681-1515321.pdf" H 7310 3180 50  0001 L BNN
@@ -1748,5 +1731,39 @@ Connection ~ 5850 3180
 Wire Wire Line
 	5850 3180 5850 3080
 Text Notes 5725 6250 0    50   ~ 0
-Switching frequency:\n250 kHz --> Fsel = LV\n125 kHz --> Fsel = IN
+Switching frequency:\n250 kHz --> Fsel = LV\n*125 kHz --> Fsel = IN
+Wire Wire Line
+	2130 5610 2130 5705
+Text GLabel 1575 3010 0    50   Input ~ 0
+REG_EN
+Wire Wire Line
+	1575 3010 1695 3010
+Wire Wire Line
+	1995 2910 3110 2910
+Wire Wire Line
+	3110 2910 3110 3160
+NoConn ~ 1695 2810
+Wire Wire Line
+	2130 5705 3330 5705
+Connection ~ 2130 5705
+Wire Wire Line
+	2130 5705 2130 5885
+Text GLabel 3460 2910 2    50   Output ~ 0
+INH
+Wire Wire Line
+	3460 2910 3110 2910
+Connection ~ 3110 2910
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 62AC51E7
+P 5850 2585
+F 0 "#PWR0116" H 5850 2435 50  0001 C CNN
+F 1 "+3.3V" H 5865 2758 50  0000 C CNN
+F 2 "" H 5850 2585 50  0001 C CNN
+F 3 "" H 5850 2585 50  0001 C CNN
+	1    5850 2585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2980 5850 2585
 $EndSCHEMATC

@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title "NGL_Proto_V2"
-Date "2022-05-27"
-Rev "V2"
+Title "NGL_Proto_ST"
+Date "2022-06-09"
+Rev "V1.1"
 Comp "ADTP"
 Comment1 "Auteur: Benoît"
 Comment2 "Proto avec potar numérique + intégration"
-Comment3 "Sous traité chez JLCPCB"
+Comment3 "Sous traité chez EUROCIRCUIT"
 Comment4 ""
 $EndDescr
 $Comp
@@ -147,7 +147,7 @@ U 1 1 629BEC75
 P 6085 4510
 F 0 "C30" H 6200 4556 50  0000 L CNN
 F 1 "1uF" H 6200 4465 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6123 4360 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6123 4360 50  0001 C CNN
 F 3 "~" H 6085 4510 50  0001 C CNN
 	1    6085 4510
 	1    0    0    -1  
@@ -189,7 +189,7 @@ U 1 1 62A152EA
 P 4885 4905
 F 0 "R39" V 4925 5085 50  0000 C CNN
 F 1 "0R" V 4769 4905 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4815 4905 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4815 4905 50  0001 C CNN
 F 3 "~" H 4885 4905 50  0001 C CNN
 	1    4885 4905
 	0    1    1    0   
@@ -213,4 +213,78 @@ Wire Wire Line
 Connection ~ 4800 4700
 Wire Wire Line
 	4800 4700 4710 4700
+$Comp
+L Device:C C31
+U 1 1 62A4A936
+P 3800 2500
+F 0 "C31" H 3915 2546 50  0000 L CNN
+F 1 "100nF" H 3915 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 2350 50  0001 C CNN
+F 3 "~" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 62A4C6AB
+P 7500 2500
+F 0 "C32" H 7615 2546 50  0000 L CNN
+F 1 "100nF" H 7615 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7538 2350 50  0001 C CNN
+F 3 "~" H 7500 2500 50  0001 C CNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR065
+U 1 1 62A4E28A
+P 7500 2750
+F 0 "#PWR065" H 7500 2500 50  0001 C CNN
+F 1 "GND" H 7505 2577 50  0000 C CNN
+F 2 "" H 7500 2750 50  0001 C CNN
+F 3 "" H 7500 2750 50  0001 C CNN
+	1    7500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR064
+U 1 1 62A4ED06
+P 7500 2250
+F 0 "#PWR064" H 7500 2100 50  0001 C CNN
+F 1 "+3.3V" H 7515 2423 50  0000 C CNN
+F 2 "" H 7500 2250 50  0001 C CNN
+F 3 "" H 7500 2250 50  0001 C CNN
+	1    7500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR063
+U 1 1 62A50038
+P 3800 2750
+F 0 "#PWR063" H 3800 2500 50  0001 C CNN
+F 1 "GND" H 3805 2577 50  0000 C CNN
+F 2 "" H 3800 2750 50  0001 C CNN
+F 3 "" H 3800 2750 50  0001 C CNN
+	1    3800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR029
+U 1 1 62A52392
+P 3800 2250
+F 0 "#PWR029" H 3800 2100 50  0001 C CNN
+F 1 "+3.3V" H 3815 2423 50  0000 C CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2750 7500 2650
+Wire Wire Line
+	7500 2350 7500 2250
+Wire Wire Line
+	3800 2750 3800 2650
+Wire Wire Line
+	3800 2350 3800 2250
 $EndSCHEMATC
