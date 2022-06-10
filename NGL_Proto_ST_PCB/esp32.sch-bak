@@ -599,7 +599,7 @@ Wire Wire Line
 Wire Wire Line
 	9095 2940 8890 2940
 Text GLabel 8890 2740 0    50   Output ~ 0
-CS_R2
+CS_SPARE
 Wire Wire Line
 	9095 3040 8890 3040
 Wire Wire Line
@@ -692,7 +692,6 @@ Text GLabel 6615 3340 2    50   Output ~ 0
 MOTEUR
 Wire Wire Line
 	6615 3340 6370 3340
-NoConn ~ 6370 3040
 Wire Wire Line
 	2820 3435 3285 3435
 Wire Wire Line
@@ -748,4 +747,8 @@ Text GLabel 3285 3635 2    50   Input ~ 0
 BOOT
 Wire Wire Line
 	3285 3635 2820 3635
+Text GLabel 6615 3040 2    50   Output ~ 0
+CS_SPARE
+Wire Wire Line
+	6615 3040 6370 3040
 $EndSCHEMATC

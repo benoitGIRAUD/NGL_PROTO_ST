@@ -84,7 +84,6 @@ F 3 "" H 6670 5230 50  0001 C CNN
 $EndComp
 Text GLabel 4980 5200 2    50   Input ~ 0
 MOSI
-NoConn ~ 8265 4425
 Wire Wire Line
 	4980 5200 4710 5200
 Wire Wire Line
@@ -183,36 +182,8 @@ Wire Wire Line
 Connection ~ 4900 4100
 Wire Wire Line
 	4900 4100 4900 4150
-$Comp
-L Device:R R39
-U 1 1 62A152EA
-P 4885 4905
-F 0 "R39" V 4925 5085 50  0000 C CNN
-F 1 "0R" V 4769 4905 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4815 4905 50  0001 C CNN
-F 3 "~" H 4885 4905 50  0001 C CNN
-	1    4885 4905
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	4890 4700 4800 4700
-Wire Wire Line
-	4890 4600 4710 4600
-Wire Wire Line
-	4735 4905 4735 4800
-Wire Wire Line
-	4735 4800 4710 4800
-Wire Wire Line
-	5035 4905 5070 4905
-Wire Wire Line
-	5070 4905 5070 4820
-Wire Wire Line
-	5070 4820 4800 4820
-Wire Wire Line
-	4800 4820 4800 4700
-Connection ~ 4800 4700
-Wire Wire Line
-	4800 4700 4710 4700
+	4890 4600 4800 4600
 $Comp
 L Device:C C31
 U 1 1 62A4A936
@@ -287,4 +258,84 @@ Wire Wire Line
 	3800 2750 3800 2650
 Wire Wire Line
 	3800 2350 3800 2250
+$Comp
+L Device:R R?
+U 1 1 62C7825A
+P 9230 4205
+AR Path="/6271F3E2/62C7825A" Ref="R?"  Part="1" 
+AR Path="/6271F3E2/629412F2/62C7825A" Ref="R19"  Part="1" 
+F 0 "R19" H 9300 4251 50  0000 L CNN
+F 1 "4.7K" H 9300 4160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9160 4205 50  0001 C CNN
+F 3 "~" H 9230 4205 50  0001 C CNN
+	1    9230 4205
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR066
+U 1 1 62C78A0A
+P 9230 3680
+F 0 "#PWR066" H 9230 3530 50  0001 C CNN
+F 1 "+3.3V" H 9245 3853 50  0000 C CNN
+F 2 "" H 9230 3680 50  0001 C CNN
+F 3 "" H 9230 3680 50  0001 C CNN
+	1    9230 3680
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8265 4425 9230 4425
+Wire Wire Line
+	9230 4425 9230 4355
+Wire Wire Line
+	9230 4055 9230 3680
+Text Notes 9525 4240 0    50   ~ 0
+PULL UP Nécessaire même si non utilisé
+$Comp
+L Device:R R39
+U 1 1 62A152EA
+P 4945 4855
+F 0 "R39" V 4985 5035 50  0000 C CNN
+F 1 "0R" V 5030 4860 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4875 4855 50  0001 C CNN
+F 3 "~" H 4945 4855 50  0001 C CNN
+	1    4945 4855
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4710 4700 4890 4700
+Text Notes 5380 4600 0    50   ~ 0
+WIPER
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62C8BE98
+P 9230 4565
+AR Path="/62C8BE98" Ref="TP?"  Part="1" 
+AR Path="/6271F3E2/629412F2/62C8BE98" Ref="TP15"  Part="1" 
+F 0 "TP15" H 9288 4683 50  0000 L CNN
+F 1 "SDO" H 9280 4585 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9430 4565 50  0001 C CNN
+F 3 "~" H 9430 4565 50  0001 C CNN
+	1    9230 4565
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9230 4565 9230 4425
+Connection ~ 9230 4425
+Wire Wire Line
+	4795 4855 4755 4855
+Wire Wire Line
+	4755 4855 4755 4800
+Wire Wire Line
+	4755 4800 4710 4800
+Wire Wire Line
+	5095 4855 5205 4855
+Wire Wire Line
+	5205 4855 5205 4465
+Wire Wire Line
+	5205 4465 4800 4465
+Wire Wire Line
+	4800 4465 4800 4600
+Connection ~ 4800 4600
+Wire Wire Line
+	4800 4600 4710 4600
 $EndSCHEMATC
