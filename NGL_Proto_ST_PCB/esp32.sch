@@ -49,40 +49,36 @@ $EndComp
 $Comp
 L Device:LED D10
 U 1 1 627CF753
-P 7095 4240
-F 0 "D10" H 7095 4090 50  0000 C CNN
-F 1 "LED_B" H 7095 4160 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 7095 4240 50  0001 C CNN
-F 3 "~" H 7095 4240 50  0001 C CNN
-	1    7095 4240
+P 8155 3840
+F 0 "D10" H 8155 3690 50  0000 C CNN
+F 1 "LED_B" H 8155 3760 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8155 3840 50  0001 C CNN
+F 3 "~" H 8155 3840 50  0001 C CNN
+	1    8155 3840
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R15
 U 1 1 627D0C44
-P 6645 4240
-F 0 "R15" V 6545 4235 50  0000 C CNN
-F 1 "43R" V 6730 4240 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6575 4240 50  0001 C CNN
-F 3 "~" H 6645 4240 50  0001 C CNN
-	1    6645 4240
+P 7790 3840
+F 0 "R15" V 7690 3835 50  0000 C CNN
+F 1 "43R" V 7875 3840 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7720 3840 50  0001 C CNN
+F 3 "~" H 7790 3840 50  0001 C CNN
+	1    7790 3840
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR033
 U 1 1 627D3151
-P 7375 4605
-F 0 "#PWR033" H 7375 4355 50  0001 C CNN
-F 1 "GND" H 7380 4432 50  0000 C CNN
-F 2 "" H 7375 4605 50  0001 C CNN
-F 3 "" H 7375 4605 50  0001 C CNN
-	1    7375 4605
+P 8350 3995
+F 0 "#PWR033" H 8350 3745 50  0001 C CNN
+F 1 "GND" H 8355 3822 50  0000 C CNN
+F 2 "" H 8350 3995 50  0001 C CNN
+F 3 "" H 8350 3995 50  0001 C CNN
+	1    8350 3995
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6795 4240 6945 4240
-Wire Wire Line
-	7245 4240 7375 4240
 $Comp
 L Switch:SW_Push SW3
 U 1 1 6272E424
@@ -163,12 +159,12 @@ F 3 "~" H 9295 4230 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J2
+L Connector:Conn_01x06_Male J2
 U 1 1 62742401
 P 2620 3535
-F 0 "J2" H 2675 3725 50  0000 R CNN
+F 0 "J2" H 2630 3810 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 2592 3508 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2620 3535 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2620 3535 50  0001 C CNN
 F 3 "~" H 2620 3535 50  0001 C CNN
 	1    2620 3535
 	1    0    0    1   
@@ -224,24 +220,24 @@ NEO
 $Comp
 L power:GND #PWR039
 U 1 1 6274FC5D
-P 2870 3710
-F 0 "#PWR039" H 2870 3460 50  0001 C CNN
-F 1 "GND" H 2875 3537 50  0000 C CNN
-F 2 "" H 2870 3710 50  0001 C CNN
-F 3 "" H 2870 3710 50  0001 C CNN
-	1    2870 3710
+P 2900 3850
+F 0 "#PWR039" H 2900 3600 50  0001 C CNN
+F 1 "GND" H 2905 3677 50  0000 C CNN
+F 2 "" H 2900 3850 50  0001 C CNN
+F 3 "" H 2900 3850 50  0001 C CNN
+	1    2900 3850
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4770 3140
 $Comp
 L power:+3.3V #PWR038
 U 1 1 6275066C
-P 2870 3235
-F 0 "#PWR038" H 2870 3085 50  0001 C CNN
-F 1 "+3.3V" H 2885 3408 50  0000 C CNN
-F 2 "" H 2870 3235 50  0001 C CNN
-F 3 "" H 2870 3235 50  0001 C CNN
-	1    2870 3235
+P 2900 3150
+F 0 "#PWR038" H 2900 3000 50  0001 C CNN
+F 1 "+3.3V" H 2915 3323 50  0000 C CNN
+F 2 "" H 2900 3150 50  0001 C CNN
+F 3 "" H 2900 3150 50  0001 C CNN
+	1    2900 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -266,14 +262,6 @@ Wire Wire Line
 	3760 2340 3760 2280
 Wire Wire Line
 	3760 2860 3760 2805
-Wire Wire Line
-	2820 3335 2870 3335
-Wire Wire Line
-	2870 3335 2870 3235
-Wire Wire Line
-	2870 3710 2870 3635
-Wire Wire Line
-	2870 3635 2820 3635
 $Comp
 L power:GND #PWR044
 U 1 1 62761152
@@ -285,8 +273,6 @@ F 3 "" H 6535 4600 50  0001 C CNN
 	1    6535 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7375 4240 7375 4605
 $Comp
 L power:GND #PWR041
 U 1 1 62762C90
@@ -312,7 +298,7 @@ $EndComp
 Wire Wire Line
 	8100 2340 7830 2340
 Wire Wire Line
-	7430 2340 6370 2340
+	7430 2340 7000 2340
 Wire Wire Line
 	8105 2455 8105 2440
 Wire Wire Line
@@ -354,7 +340,7 @@ Wire Wire Line
 	3295 2860 3295 2780
 Text Notes 4970 4715 0    50   ~ 0
 IO6 to IO11 SPI FLASH Reserved
-Text Notes 2590 4090 0    50   ~ 0
+Text Notes 2595 4315 0    50   ~ 0
 UART \nLoad programm --> RST + BOOT 
 Text Notes 9325 2955 0    50   ~ 0
 SPI\n
@@ -451,7 +437,6 @@ Wire Notes Line
 Text Notes 2690 5270 0    79   ~ 16
 ADC 16 Bits _ 15 SPS _ I²C
 NoConn ~ 6370 4040
-NoConn ~ 6370 4140
 Wire Wire Line
 	4770 2640 4670 2640
 Text GLabel 4670 2640 0    50   Input ~ 0
@@ -564,10 +549,8 @@ F 4 "SJ5003" H 7575 5870 50  0001 C CNN "MPN"
 $EndComp
 Text Notes 7695 6320 0    79   ~ 16
 BUMPERS
-Text GLabel 6615 3440 2    50   Output ~ 0
+Text GLabel 6620 4140 2    50   Output ~ 0
 CLOCK_GEN
-Wire Wire Line
-	6615 3440 6370 3440
 Text GLabel 4665 3440 0    50   Output ~ 0
 UART_TX
 Wire Wire Line
@@ -656,12 +639,6 @@ Wire Wire Line
 	10160 1750 10160 1820
 Wire Wire Line
 	6795 3940 6970 3940
-Wire Wire Line
-	6495 4240 6455 4240
-Wire Wire Line
-	6455 4240 6455 3840
-Wire Wire Line
-	6455 3840 6370 3840
 NoConn ~ 6370 4240
 $Comp
 L power:+3.3V #PWR0113
@@ -731,5 +708,44 @@ Wire Wire Line
 Text Notes 6875 3775 0    50   ~ 0
 Entrée ENABLE pooling
 Text Notes 1450 3535 0    50   ~ 0
-Déporter programmeur
+BP de prog déportée
+Wire Wire Line
+	6370 3840 7640 3840
+Wire Wire Line
+	7940 3840 8005 3840
+Wire Wire Line
+	8305 3840 8350 3840
+Wire Wire Line
+	8350 3840 8350 3995
+Wire Wire Line
+	6620 4140 6370 4140
+Wire Wire Line
+	2900 3850 2900 3735
+Wire Wire Line
+	2900 3735 2820 3735
+Wire Wire Line
+	2820 3235 2900 3235
+Wire Wire Line
+	2900 3235 2900 3150
+NoConn ~ 6370 3440
+Text GLabel 3095 2340 0    50   Input ~ 0
+EN
+Text GLabel 3285 3335 2    50   Output ~ 0
+EN
+Wire Wire Line
+	3285 3335 2820 3335
+Wire Wire Line
+	3295 2340 3095 2340
+Connection ~ 3295 2340
+Text GLabel 7000 2150 1    50   Input ~ 0
+BOOT
+Wire Wire Line
+	7000 2150 7000 2340
+Connection ~ 7000 2340
+Wire Wire Line
+	7000 2340 6370 2340
+Text GLabel 3285 3635 2    50   Input ~ 0
+BOOT
+Wire Wire Line
+	3285 3635 2820 3635
 $EndSCHEMATC
