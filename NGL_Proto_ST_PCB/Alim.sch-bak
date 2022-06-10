@@ -343,13 +343,7 @@ F 3 "" H 3260 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1165 2700 5350 2700
-Wire Notes Line
 	5350 2700 5350 4700
-Wire Notes Line
-	5350 4700 1165 4700
-Wire Notes Line
-	1165 4700 1165 2700
 Text Notes 4610 3210 0    50   ~ 0
 800 mA Max
 $Comp
@@ -1742,7 +1736,6 @@ Wire Wire Line
 	1995 2910 3110 2910
 Wire Wire Line
 	3110 2910 3110 3160
-NoConn ~ 1695 2810
 Wire Wire Line
 	2130 5705 3330 5705
 Connection ~ 2130 5705
@@ -1832,4 +1825,40 @@ Wire Wire Line
 Connection ~ 5090 5705
 Wire Wire Line
 	5090 5705 5265 5705
+$Comp
+L Device:R R?
+U 1 1 62C95A99
+P 1000 3615
+AR Path="/6271F3E2/62C95A99" Ref="R?"  Part="1" 
+AR Path="/6271F3E2/62744FDF/62C95A99" Ref="R?"  Part="1" 
+F 0 "R?" H 1070 3661 50  0000 L CNN
+F 1 "4.7K" H 1070 3570 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 930 3615 50  0001 C CNN
+F 3 "~" H 1000 3615 50  0001 C CNN
+	1    1000 3615
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1695 2810 1000 2810
+Wire Wire Line
+	1000 2810 1000 3465
+$Comp
+L power:GND #PWR?
+U 1 1 62C9B1A7
+P 1000 3990
+F 0 "#PWR?" H 1000 3740 50  0001 C CNN
+F 1 "GND" H 1005 3817 50  0000 C CNN
+F 2 "" H 1000 3990 50  0001 C CNN
+F 3 "" H 1000 3990 50  0001 C CNN
+	1    1000 3990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3990 1000 3765
+Wire Notes Line
+	500  2700 500  4700
+Wire Notes Line
+	500  2700 5350 2700
+Wire Notes Line
+	500  4700 5350 4700
 $EndSCHEMATC
