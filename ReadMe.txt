@@ -3,6 +3,10 @@
 LIBNGL
 LIBNGL3D
 
+LIBNGL
+LIBNGLST
+C:\Users\b.giraud-missier.WKS-TH-BE-03\Documents\Git\NGL_PROTO_ST\Lib_NGL_Proto
+
 ${LIBNGL}
 
 Mettre le chemin du dossier de Librairie NGL dans LIBNGL:(le début du chemin diffère selon PC)
